@@ -40,10 +40,6 @@ const Home: NextPage = () => {
           Lucky Jackpot
         </h1>
 
-        <p className={styles.description}>
-          Coming Soon
-        </p>
-
         <Image
           src={luckyHero}
           width="480"
@@ -54,7 +50,12 @@ const Home: NextPage = () => {
 
         <ConnectButton />
 
+        <p className={styles.description}>
+          Coming Soon
+        </p>
+
         <div className={styles.grid}>
+
           <a
             className={styles.card}
             href="https://github.com/vercel/next.js/tree/canary/examples"
@@ -63,13 +64,6 @@ const Home: NextPage = () => {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </a>
 
-          <a
-            className={styles.card}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
-            <h2>Rules</h2>
-            <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          </a>
         </div>
       </main>
 
