@@ -4,7 +4,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import luckyLogo from '../images/lucky-logo.svg';
-import luckyHero from '../images/lucky-hero.avif'
+import luckyHero from '../images/lucky-hero.png'
 
 const Home: NextPage = () => {
   return (
