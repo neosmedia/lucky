@@ -18,9 +18,7 @@ const Home: NextPage = () => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
 
-     
-
-      <main className={styles.main}>
+      <nav>
         <Image
           src={luckyLogo}
           width="180"
@@ -29,6 +27,9 @@ const Home: NextPage = () => {
         />
         
         <ConnectButton label="Connect" />
+      </nav>
+
+      <main className={styles.main}>
 
         <h1 className={styles.title}>
           Welcome to Lucky Jackpot
