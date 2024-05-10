@@ -2,8 +2,9 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Image from 'next/image'
-
+import Image from 'next/image';
+import luckyLogo from '../images/lucky-logo.svg';
+import luckyHero from '../images/lucky-hero.avif'
 
 const Home: NextPage = () => {
   return (
@@ -21,10 +22,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Image
-          src="../images/lucky-logo.svg"
+          src={luckyLogo}
           width="180"
           height="40"
-          alt="Lucky Jackpot"
+          alt="Lucky Logo"
         />
         <ConnectButton label="Connect" />
 
@@ -35,6 +36,13 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Coming Soon
         </p>
+
+        <Image
+          src={luckyHero}
+          width="300"
+          height="200"
+          alt="Lucky Jackpot Hero"
+        />
 
         <ConnectButton />
 
