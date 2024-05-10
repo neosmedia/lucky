@@ -15,12 +15,12 @@ const Home: NextPage = () => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
 
-      <a href="/">LUCKY LOGO</a>
-
-      <ConnectButton label="Connect" />
+     
 
       <main className={styles.main}>
-        
+         <a href="/"><img src="images/lucky-logo.svg" alt="Lucky" /></a>
+
+        <ConnectButton label="Connect" />
 
         <h1 className={styles.title}>
           Welcome to Lucky Jackpot 👋
@@ -47,18 +47,16 @@ const Home: NextPage = () => {
             className={styles.card}
             href="https://github.com/vercel/next.js/tree/canary/examples"
           >
-            <h2>Next.js Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>How it Works</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </a>
 
           <a
             className={styles.card}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Rules</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </a>
         </div>
       </main>
