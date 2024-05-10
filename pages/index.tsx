@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h2>How it Works</h2>
 
-            <p>Jackpot growns until a random winner is selected. To play:</p>
+            <p>Jackpot growns until a random winner is selected</p>
 
             <ol>
               <li>Buy tickets with $DEGEN to win
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 
           <div className={styles.card}>
             <h2>Rules</h2>
-            <p>The structure of the game is in a Smart Contract is public to view. Audited Text here. Buy ticket to enter</p>
+            <p>The structure of the game is in a smart contract is public to view</p>
             
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
@@ -92,7 +92,6 @@ const Home: NextPage = () => {
               <li>No rugs</li>
             </ul>
 
-            <p>More text Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
 
         </div>
