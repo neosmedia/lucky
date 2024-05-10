@@ -18,7 +18,7 @@ const Home: NextPage = () => {
      
 
       <main className={styles.main}>
-         <a href="/"><img src="images/lucky-logo.svg" alt="Lucky" /></a>
+         <img src="/images/lucky-logo.svg" alt="Lucky" />
 
         <ConnectButton label="Connect" />
 
