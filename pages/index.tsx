@@ -47,12 +47,12 @@ const Home: NextPage = () => {
           alt="Lucky Jackpot Hero"
         />
 
-        <h3 className={styles.subtitle}>75,000 $DEGEN 🎩</h3>
+        <h2 className={styles.subtitle}>75,000 $DEGEN 🎩</h2>
 
         <div className={styles.grid}>
 
           <div className={styles.card}>
-            <h2>How it Works 🛠️</h2>
+            <h3>How it Works 🛠️</h3>
 
             <p>Jackpot growns until a random winner is selected - follow these steps to play</p>
 
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className={styles.card}>
-            <h2>Rules 📐</h2>
+            <h3>Rules 📐</h3>
 
             <p>The structure of the game is written in a smart contract</p>
             <br />
