@@ -50,19 +50,23 @@ const Home: NextPage = () => {
 
         <ConnectButton />
 
+        <br /><br />
+
         <p className={styles.description}>
           Coming Soon
         </p>
 
         <div className={styles.grid}>
 
-          <a
-            className={styles.card}
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-          >
+          <div className={styles.card}>
             <h2>How it Works</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          </a>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Rules</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
 
         </div>
       </main>
