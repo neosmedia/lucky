@@ -25,14 +25,19 @@ const Home: NextPage = () => {
           height="40"
           alt="Lucky Logo"
         />
-        
-        <ConnectButton label="Connect" />
+
+        <ul>
+          <li>
+            <ConnectButton label="Connect"/>
+          </li>
+        </ul>
+
       </nav>
 
       <main className={styles.main}>
 
         <h1 className={styles.title}>
-          Welcome to Lucky Jackpot
+          Lucky Jackpot
         </h1>
 
         <p className={styles.description}>
@@ -44,6 +49,7 @@ const Home: NextPage = () => {
           width="480"
           height="274"
           alt="Lucky Jackpot Hero"
+          placeholder="blur"
         />
 
         <ConnectButton />
