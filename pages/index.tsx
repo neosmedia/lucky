@@ -45,7 +45,6 @@ const Home: NextPage = () => {
           width="480"
           height="274"
           alt="Lucky Jackpot Hero"
-          placeholder="blur"
         />
 
         <ConnectButton />
