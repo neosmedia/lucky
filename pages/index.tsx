@@ -26,10 +26,9 @@ const Home: NextPage = () => {
           width="180"
           height="40"
           alt="Lucky Logo"
-          className="pull-left"
         />
         
-        <ConnectButton label="Connect" className="pull-right" />
+        <ConnectButton label="Connect" />
 
         <h1 className={styles.title}>
           Welcome to Lucky Jackpot
