@@ -22,8 +22,8 @@ const Home: NextPage = () => {
       <nav>
         <Image
           src={luckyLogo}
-          width="112"
-          height="50"
+          width="80"
+          height="36"
           alt="Lucky Logo"
         />
 
