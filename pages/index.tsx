@@ -51,11 +51,11 @@ const Home: NextPage = () => {
         <div className={styles.box}>
           <div className={styles.one}>
             <h4>Jackpot Size 🎩</h4>
-            <h2>75,000 $DEGEN </h2>
+            <h2>75,000 $DEGEN</h2>
           </div>
           <div className={styles.two}>
             <h4>Tickets on sale 🎟️</h4>
-            <h3>1 Tix = 20$  <i>or</i>  5 tix = 80$</h3>
+            <h2>1 Tix = 20$  <i>or</i>  5 tix = 80$</h2>
           </div>
         </div>
 
@@ -108,12 +108,9 @@ const Home: NextPage = () => {
 
         <Image
           src={potPie}
+          className={styles.responsive}
           alt="Pot Pie Chart"
         />
-
-        <p className={styles.description}>
-          COMING SOON
-        </p>
 
       </main>
 

@@ -76,17 +76,32 @@
   width: 100%;
   min-width: 320px;
   max-width: 740px;
-  border: 1px solid #222;
+  border: 1px solid #819b86;
   background-color: #bdf0cb;
   border-radius: 20px;
 }
 
 .one {
   flex: 1;
+  margin: 8px 12px;
+  padding-left: 16px;
 }
 
 .two {
   flex: 1;
+  margin: 8px 12px;
+  padding-left: 40px;
+  border-left: 1px solid #819b86;
+}
+
+@media (max-width: 600px) {
+  .two {
+    flex: 1;
+    margin: 8px 12px;
+    padding-left: 16px;
+    border-left: 0px solid #819b86;
+    border-top: 1px solid #819b86;
+  }
 }
 
 .grid {
@@ -138,6 +153,13 @@
 
 .card ul  {
   line-height: 1.4;
+}
+
+.responsive {
+  width: 100%;
+  height: inherit;
+  min-width: 320px;
+  max-width: 568px;
 }
 
 @media (max-width: 600px) {
