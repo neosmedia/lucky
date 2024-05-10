@@ -161,11 +161,11 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 .card {
-  margin: 0.5rem 0;
+  margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
