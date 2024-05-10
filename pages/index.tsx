@@ -49,10 +49,12 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h2 className={styles.subtitle}>75,000 $DEGEN 🎩</h2>
+            <h3>Jackpot Size 🎩</h3>
+            <h2 className={styles.subtitle}>75,000 $DEGEN </h2>
           </div>
           <div className={styles.two}>
-            <h2 className={styles.subtitle}>Tickets on sale 🎟️</h2>
+            <h3>Tickets on sale 🎟️</h3>
+            <h2 className={styles.subtitle}>1 Tix = 20$  <i>or</i>  5 tix = 80$</h2>
           </div>
         </div>
 
