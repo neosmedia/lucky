@@ -113,6 +113,11 @@
 
 }
 
+.one p {
+  margin: 0 0 8px 0;
+
+}
+
 .one h4,
 .two h4 {
   margin: 0 0 8px 0;
