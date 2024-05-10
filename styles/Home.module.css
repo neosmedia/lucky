@@ -96,6 +96,11 @@
   line-height: 1.4;
 }
 
+.card ul {
+  margin: 0;
+  line-height: 1.4;
+}
+
 .card h2 {
   text-transform: uppercase;
 }

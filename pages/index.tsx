@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h2>How it Works</h2>
 
-            <p>Jackpot growns until a random winner is selected</p>
+            <p>Jackpot growns until a random winner is selected - follow these steps to play</p>
 
             <ol>
               <li>Buy tickets for a chance to win
