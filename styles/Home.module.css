@@ -31,6 +31,7 @@
 .title a {
   color: #0d76fc;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .title a:hover,

@@ -21,14 +21,14 @@ const Home: NextPage = () => {
       <nav>
         <Image
           src={luckyLogo}
-          width="180"
-          height="40"
+          width="112"
+          height="50"
           alt="Lucky Logo"
         />
 
         <ul>
           <li>
-            <ConnectButton label="Connect"/>
+            <ConnectButton />
           </li>
         </ul>
 
@@ -37,19 +37,13 @@ const Home: NextPage = () => {
       <main className={styles.main}>
 
         <h1 className={styles.title}>
-          Lucky Jackpot
+          Lucky 25/75 Jackpot
         </h1>
 
         <Image
           src={luckyHero}
-          width="480"
-          height="274"
           alt="Lucky Jackpot Hero"
         />
-
-        <ConnectButton />
-
-        <br /><br />
 
         <p className={styles.description}>
           Coming Soon
