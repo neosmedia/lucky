@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lucky Jackpot Dapp</title>
+        <title>Lucky Jackpot | 75/25 Degen Jackpot</title>
         <meta
           content="Win Degen token in Lucky Jackpot by Neos"
           name="description"
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         />
 
         <p className={styles.description}>
-          Jackpot 70,000 $DEGEN (Coming Soon)
+          Jackpot 70,000 $DEGEN
         </p>
 
         <div className={styles.grid}>
