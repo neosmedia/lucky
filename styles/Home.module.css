@@ -79,6 +79,7 @@
   border: 1px solid #819b86;
   background-color: #bdf0cb;
   border-radius: 20px;
+  box-shadow: 0 4px 0 0 #819b86;
 }
 
 .one {
@@ -119,6 +120,7 @@
   background-color: #fff;
   border: 1px solid #222;
   border-radius: 8px;
+  box-shadow: 0 4px 0 0 #222;
 }
 
 .grid {
@@ -141,6 +143,8 @@
   border-radius: 20px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 350px;
+  box-shadow: 0 4px 0 0 #333;
+
 }
 
 .card:hover,
