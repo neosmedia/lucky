@@ -108,8 +108,15 @@
 .one h2 {
   margin: 0;
   font-family: 'Roboto Mono';
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 
+}
+
+.one h4,
+.two h2,
+.two h4 {
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .btn {
