@@ -104,9 +104,16 @@
   }
 }
 
-.btn {
+.one h2 {
   margin: 0;
-  padding: 0;
+  font-family: 'Roboto Mono';
+  font-size: 2.2rem;
+
+}
+
+.btn {
+  margin: 0 0 8px 0;
+  padding: 8px 12px;
   height: 40px;
   display: inline-block;
   background-color: #fff;
