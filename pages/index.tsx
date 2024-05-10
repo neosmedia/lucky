@@ -52,12 +52,12 @@ const Home: NextPage = () => {
           <div className={styles.one}>
             <h4>Jackpot Size 🎩</h4>
             <h2>75,000 $DEGEN</h2>
-            <a className={styles.btn} href="/">Get 1 Tickets 20$</a>
+            <a className={styles.btn} href="#">Get 1 Tickets 20$</a>
           </div>
           <div className={styles.two}>
             <h4>Tickets on sale 🎟️</h4>
             <h2>1 Tix = 20$  <i>or</i>  5 tix = 80$</h2>
-            <a className={styles.btn} href="/">Get 5 Tickets 80$</a>
+            <a className={styles.btn} href="#">Get 5 Tickets 80$</a>
           </div>
         </div>
 
