@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h2>How it Works</h2>
 
-            <p>Jackpot growns until it's won! To play:</p>
+            <p>Jackpot growns until a random winner is selected. To play:</p>
 
             <ol>
               <li>Buy tickets with $DEGEN for your chance to win
@@ -84,11 +84,13 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h2>Rules</h2>
             <p>The structure of the game is in a Smart Contract is public to view. Audited Text here. Buy ticket to enter</p>
+            
             <ul>
               <li>Item One</li>
               <li>Item Two</li>
               <li>Item Three</li>
             </ul>
+
             <p>More text Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
 
@@ -96,8 +98,8 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
-          Made with ❤️ by Neos
+        <a href="https://northvanweb.com/" rel="noopener noreferrer" target="_blank">
+          Made with 💜 by Neos
         </a>
       </footer>
     </div>
