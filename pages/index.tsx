@@ -15,6 +15,11 @@ const Home: NextPage = () => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
 
+      <nav>
+        <a>LUCKY LOGO</a>
+        <ConnectButton label="Connect" />
+      </nav>
+
       <main className={styles.main}>
         
 
