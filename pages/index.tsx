@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           alt="Lucky Jackpot Hero"
         />
 
-        <h3>75,000 $DEGEN 🎩</h3>
+        <h3 className={styles.subtitle}>75,000 $DEGEN 🎩</h3>
 
         <div className={styles.grid}>
 
