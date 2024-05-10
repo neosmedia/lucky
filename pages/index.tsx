@@ -26,8 +26,10 @@ const Home: NextPage = () => {
           width="180"
           height="40"
           alt="Lucky Logo"
+          className="pull-left"
         />
-        <ConnectButton label="Connect" />
+        
+        <ConnectButton label="Connect" className="pull-right" />
 
         <h1 className={styles.title}>
           Welcome to Lucky Jackpot
@@ -39,8 +41,8 @@ const Home: NextPage = () => {
 
         <Image
           src={luckyHero}
-          width="300"
-          height="200"
+          width="480"
+          height="274"
           alt="Lucky Jackpot Hero"
         />
 
