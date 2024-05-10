@@ -42,6 +42,8 @@ const Home: NextPage = () => {
 
         <Image
           src={luckyHero}
+          width="320"
+          height="182"
           alt="Lucky Jackpot Hero"
         />
 
