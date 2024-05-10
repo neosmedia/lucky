@@ -59,25 +59,24 @@ const Home: NextPage = () => {
             <p>Jackpot growns until a random winner is selected. To play:</p>
 
             <ol>
-              <li>Buy tickets with $DEGEN for your chance to win
+              <li>Buy tickets with $DEGEN to win
                 
                 <ul>
-                  <li>10 $DEGEN for 1 Ticket</li>
-                  <li>40 $DEGEN for 5 Tickets</li>
+                  <li>20 $DEGEN for 1 ticket</li>
+                  <li>80 $DEGEN for 5 tickets</li>
                 </ul>
 
               </li>
               <li>A random winner is selected for the Lucky Jackpot
 
                 <ul>
-                  <li>75% of pot goes to winner</li>
-                  <li>10% of pot goes to developers</li>
-                  <li>15% Held in reserves for the next jackpot</li>
+                  <li>75% goes to winner</li>
+                  <li>10% goes to developers</li>
+                  <li>15% held in reserves for the next jackpot</li>
                 </ul>
 
               </li>
-              <li>Jackpot is held in this wallet: degenjackpot.cb.id</li>
-              <li>Winners must claim pize to collect winnings</li>
+              <li>Jackpot is held in this wallet until there is a winner degenjackpot.id.cb</li>
             </ol>
           </div>
 
@@ -86,9 +85,11 @@ const Home: NextPage = () => {
             <p>The structure of the game is in a Smart Contract is public to view. Audited Text here. Buy ticket to enter</p>
             
             <ul>
-              <li>Item One</li>
-              <li>Item Two</li>
-              <li>Item Three</li>
+              <li>Each ticket has a chance to win the jackpot</li>
+              <li>Winners are randomly selected by smart contract</li>
+              <li>Winners must claim pize to collect</li>
+              <li>No maximun entries</li>
+              <li>No rugs</li>
             </ul>
 
             <p>More text Ipsum is simply dummy text of the printing and typesetting industry.</p>
