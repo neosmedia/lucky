@@ -39,16 +39,6 @@ const Home: NextPage = () => {
         <ConnectButton />
 
         <div className={styles.grid}>
-          <a className={styles.card} href="https://rainbowkit.com">
-            <h2>RainbowKit Documentation &rarr;</h2>
-            <p>Learn how to customize your wallet connection flow.</p>
-          </a>
-
-          <a className={styles.card} href="https://wagmi.sh">
-            <h2>wagmi Documentation &rarr;</h2>
-            <p>Learn how to interact with Ethereum.</p>
-          </a>
-
           <a
             className={styles.card}
             href="https://github.com/vercel/next.js/tree/canary/examples"
