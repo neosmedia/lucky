@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
 
           <div className={styles.card}>
-            <h2>How it Works</h2>
+            <h2>How it Works 🛠️</h2>
 
             <p>Jackpot growns until a random winner is selected - follow these steps to play</p>
 
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className={styles.card}>
-            <h2>Rules</h2>
+            <h2>Rules 📐</h2>
 
             <p>The structure of the game is written in a smart contract</p>
             <br />
