@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 
           <div className={styles.card}>
             <h2>Rules</h2>
-            <p>The structure of the game is written in a smart contract that has been audited</p>
+            <p>The structure of the game is written in a smart contract</p>
             
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
