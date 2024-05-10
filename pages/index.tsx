@@ -4,7 +4,8 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import luckyLogo from '../images/lucky-logo.svg';
-import luckyHero from '../images/lucky-hero.png'
+import luckyHero from '../images/lucky-hero.png';
+import potPie from '../images/pot-pie.png'
 
 const Home: NextPage = () => {
   return (
@@ -49,12 +50,12 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h3>Jackpot Size 🎩</h3>
-            <h2 className={styles.subtitle}>75,000 $DEGEN </h2>
+            <h4>Jackpot Size 🎩</h4>
+            <h2>75,000 $DEGEN </h2>
           </div>
           <div className={styles.two}>
-            <h3>Tickets on sale 🎟️</h3>
-            <h2 className={styles.subtitle}>1 Tix = 20$  <i>or</i>  5 tix = 80$</h2>
+            <h4>Tickets on sale 🎟️</h4>
+            <h3>1 Tix = 20$  <i>or</i>  5 tix = 80$</h3>
           </div>
         </div>
 
@@ -104,6 +105,11 @@ const Home: NextPage = () => {
           </div>
 
         </div>
+
+        <Image
+          src={potPie}
+          alt="Pot Pie Chart"
+        />
 
         <p className={styles.description}>
           COMING SOON
