@@ -90,7 +90,6 @@ const Home: NextPage = () => {
               <li>Winners are randomly selected by smart contract</li>
               <li>Jackpot must be claimed by the winner to collect</li>
               <li>No maximun amount of entries</li>
-              <li>No rugs</li>
               <li>Transaction fees are not included</li>
             </ul>
 
