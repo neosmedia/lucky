@@ -98,9 +98,9 @@
 @media (max-width: 600px) {
   .two {
     flex: 1;
-    margin: 0 20px 8px 20px;
+    margin: 0 20px;
     padding-left: 0;
-    padding-top: 20px;
+    padding-top: 8px;
     border-left: 0px solid #819b86;
     border-top: 1px solid #819b86;
   }
@@ -114,14 +114,20 @@
 }
 
 .one p {
-  margin: 0 0 8px 0;
+  margin: 0;
 
 }
 
 .one h4,
 .two h4 {
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+
+.two h2 {
   margin: 0 0 8px 0;
   text-transform: uppercase;
+
 }
 
 .btn {
