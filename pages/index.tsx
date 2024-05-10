@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         />
 
         <p className={styles.description}>
-          Coming Soon
+          Jackpot 70,000 $DEGEN (Coming Soon)
         </p>
 
         <div className={styles.grid}>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             <p>Jackpot growns until a random winner is selected</p>
 
             <ol>
-              <li>Buy tickets with $DEGEN to win
+              <li>Buy tickets for a chance to win
                 
                 <ul>
                   <li>20 $DEGEN for 1 ticket</li>
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
 
           <div className={styles.card}>
             <h2>Rules</h2>
-            <p>The structure of the game is in a smart contract is public to view</p>
+            <p>The structure of the game is written in a smart contract that has been audited</p>
             
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
