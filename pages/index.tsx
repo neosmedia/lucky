@@ -47,9 +47,7 @@ const Home: NextPage = () => {
           alt="Lucky Jackpot Hero"
         />
 
-        <p className={styles.description}>
-          Jackpot 70,000 $DEGEN
-        </p>
+        <h3>75,000 $DEGEN 🎩</h3>
 
         <div className={styles.grid}>
 
@@ -96,6 +94,11 @@ const Home: NextPage = () => {
           </div>
 
         </div>
+
+        <p className={styles.description}>
+          Coming Soon
+        </p>
+
       </main>
 
       <footer className={styles.footer}>

@@ -57,6 +57,11 @@
   font-size: 1.5rem;
 }
 
+h3 {
+  font-family: 'Roboto Mono';
+  text-align: center;
+}
+
 .grid {
   display: flex;
   align-items: center;
