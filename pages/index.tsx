@@ -19,15 +19,16 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <ConnectButton />
+        
 
         <h1 className={styles.title}>
           Welcome to Lucky Jackpot 👋
         </h1>
 
+        <ConnectButton />
+
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Coming Soon
         </p>
 
         <div className={styles.grid}>
@@ -75,8 +76,8 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
-          Made with ❤️ by your frens at 🌈
+        <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
+          Made with ❤️ by Neos
         </a>
       </footer>
     </div>
