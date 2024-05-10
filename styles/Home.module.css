@@ -42,7 +42,7 @@
 .title {
   margin: 2rem 0;
   line-height: 1;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-family: 'Roboto Mono';
 }
@@ -106,6 +106,7 @@
 
 .card ul {
   margin: 0;
+  padding: 0;
   line-height: 1.4;
 }
 
