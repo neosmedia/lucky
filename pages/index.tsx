@@ -2,6 +2,8 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image'
+
 
 const Home: NextPage = () => {
   return (
@@ -18,19 +20,23 @@ const Home: NextPage = () => {
      
 
       <main className={styles.main}>
-         <Image src="/images/lucky-logo.svg" alt="Lucky" />
-
+        <Image
+          src="../images/lucky-logo.svg"
+          width="180"
+          height="40"
+          alt="Lucky Jackpot"
+        />
         <ConnectButton label="Connect" />
 
         <h1 className={styles.title}>
-          Welcome to Lucky Jackpot 👋
+          Welcome to Lucky Jackpot
         </h1>
-
-        <ConnectButton />
 
         <p className={styles.description}>
           Coming Soon
         </p>
+
+        <ConnectButton />
 
         <div className={styles.grid}>
           <a className={styles.card} href="https://rainbowkit.com">
@@ -48,7 +54,7 @@ const Home: NextPage = () => {
             href="https://github.com/vercel/next.js/tree/canary/examples"
           >
             <h2>How it Works</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </a>
 
           <a
@@ -56,7 +62,7 @@ const Home: NextPage = () => {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           >
             <h2>Rules</h2>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </a>
         </div>
       </main>
