@@ -80,8 +80,9 @@ const Home: NextPage = () => {
 
           <div className={styles.card}>
             <h2>Rules</h2>
+
             <p>The structure of the game is written in a smart contract</p>
-            
+            <br />
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token on Base Network</li>
@@ -96,7 +97,7 @@ const Home: NextPage = () => {
         </div>
 
         <p className={styles.description}>
-          Coming Soon
+          COMING SOON
         </p>
 
       </main>
