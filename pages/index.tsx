@@ -50,12 +50,12 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h4>Jackpot 🎩</h4>
+            <h4>Jackpot  🎩</h4>
             <h2>75,020 <small>$DEGEN</small></h2>
             <p>Last updated 3 mins ago</p>
           </div>
           <div className={styles.two}>
-            <h4>Tickets 🎟️</h4>
+            <h4>Tickets  🎟️</h4>
             <h2>1 Tix = 20$/5 Tix = 80$</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a> &nbsp; <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
@@ -113,6 +113,8 @@ const Home: NextPage = () => {
           className={styles.responsive}
           alt="Pot Pie Chart"
         />
+
+        <ConnectButton />
 
       </main>
 
