@@ -50,7 +50,7 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h4>🎩 Jackpot</h4>
+            <h4>🎩 Win Jackpot</h4>
             <h2>75,020 <small>$DEGEN</small></h2>
             <p>Last updated 3 mins ago</p>
           </div>
