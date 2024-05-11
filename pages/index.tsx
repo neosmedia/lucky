@@ -99,7 +99,7 @@ const Home: NextPage = () => {
               <li>Each ticket has a chance to win the jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token on Base Network</li>
               <li>Winners are randomly selected by smart contract</li>
-              <li>Jackpot must be claimed by the winner to collect</li>
+              <li>Jackpot must be claimed by the winner</li>
               <li>No maximun amount of entries</li>
               <li>Transaction fees are not included</li>
             </ul>
