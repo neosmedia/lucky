@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.two}>
             <h4>Tickets  🎟️</h4>
-            <h2>1 Tix = 20$/5 Tix = 80$</h2>
+            <h2>1 Tix = 20$ / 5 Tix = 80$</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a> &nbsp; <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
         </div>
@@ -81,8 +81,8 @@ const Home: NextPage = () => {
 
                 <ul>
                   <li>75% goes to winner</li>
-                  <li>10% goes to developers</li>
                   <li>15% held in reserves for the next jackpot</li>
+                  <li>10% goes to developers</li>
                 </ul>
 
               </li>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h3>Rules 📐</h3>
 
-            <p>The structure of the game is written in a smart contract</p>
+            <p>The structure of the game is written in a smart contract for all to see</p>
             <br />
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
