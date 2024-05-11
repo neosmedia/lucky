@@ -50,12 +50,12 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h4>Jackpot  🎩</h4>
+            <h4>🎩 Jackpot</h4>
             <h2>75,020 <small>$DEGEN</small></h2>
             <p>Last updated 3 mins ago</p>
           </div>
           <div className={styles.two}>
-            <h4>Tickets  🎟️</h4>
+            <h4>🎟️ Tickets</h4>
             <h2>1 Tix = 20$ / 5 Tix = 80$</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a> &nbsp; <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h3>How it Works 🛠️</h3>
 
-            <p>Jackpot growns until a random winner is selected - follow these steps to play</p>
+            <p>Jackpot grows until a random winner is selected - follow these steps to play</p>
 
             <ol>
               <li>Buy tickets for a chance to win
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
 
                 <ul>
                   <li>75% goes to winner</li>
-                  <li>15% held in reserves for the next jackpot</li>
+                  <li>15% reserved for the next jackpot</li>
                   <li>10% goes to developers</li>
                 </ul>
 
