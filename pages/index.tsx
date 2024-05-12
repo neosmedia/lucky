@@ -5,7 +5,8 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import luckyLogo from '../images/lucky-logo.svg';
 import luckyHero from '../images/lucky-hero.png';
-import potPie from '../images/pot-pie.png'
+import potPie from '../images/pot-pie.png';
+import favicon from 'icon.ico'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
           name="description"
         />
 
-        <link href="/app/icon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="icon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
         <link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
         <link href="/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
