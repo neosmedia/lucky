@@ -91,7 +91,7 @@
 .two {
   flex: 1;
   margin: 12px;
-  padding-left: 32px;
+  padding-left: 24px;
   border-left: 1px solid #819b86;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .btn {
-  margin: 8px 16px 8px 0;
+  margin: 8px 12px 8px 0;
   padding: 8px 12px;
   height: 40px;
   display: inline-block;
@@ -140,6 +140,7 @@
   border: 1px solid #222;
   border-radius: 8px;
   box-shadow: 0 4px 0 0 #333;
+  font-size: 1.05rem;
   font-weight: bold;
 }
 
