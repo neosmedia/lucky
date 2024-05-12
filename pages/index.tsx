@@ -16,10 +16,12 @@ const Home: NextPage = () => {
           content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
           name="description"
         />
-        <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
+
+        <link href="/app/icon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+        <link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+        <link href="/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+
       </Head>
 
       <nav>
