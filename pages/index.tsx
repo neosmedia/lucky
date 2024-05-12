@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 </ul>
 
               </li>
-              <li>Jackpot is held in secure wallet until theres a winner degenjackpot.id.cb</li>
+              <li>Jackpot is held in secure wallet until there is a winner degenjackpot.id.cb</li>
             </ol>
           </div>
 
@@ -98,7 +98,8 @@ const Home: NextPage = () => {
             <ul>
               <li>Each ticket has a chance to win the jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token on Base Network</li>
-              <li>Winners are randomly selected by smart contract</li>
+              <li>Winners are randomly selected instantly</li>
+              <li>Odds of winning are 1 in 200</li>
               <li>Jackpot must be claimed by the winner</li>
               <li>No maximun amount of entries</li>
               <li>Transaction fees are not included</li>
