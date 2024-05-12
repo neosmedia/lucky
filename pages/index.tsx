@@ -5,8 +5,7 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import luckyLogo from '../images/lucky-logo.svg';
 import luckyHero from '../images/lucky-hero.png';
-import potPie from '../images/pot-pie.png';
-import favIcon from '../images/favicon.ico'
+import potPie from '../images/pot-pie.png'
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +16,7 @@ const Home: NextPage = () => {
           content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
           name="description"
         />
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
