@@ -55,7 +55,7 @@ const Home: NextPage = () => {
             <p>Last updated 2 mins ago</p>
           </div>
           <div className={styles.two}>
-            <h4>Tickets On Sale 🎟️</h4>
+            <h4>Tickets 🎟️ Purchase with $DEGEN</h4>
             <h2>1 Tix = 20$ / 5 Tix = 80$</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a>  <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
