@@ -119,7 +119,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Smart Contract <small>🟢</small> Audited  |  Made with 💜 by <a href="https://northvanweb.com/" rel="noopener noreferrer" target="_blank">Neos</a> | <a href="https://warpcast.com/" rel="noopener noreferrer">Web3Desginer</a></p>
+        <p>Smart Contract <small>🟢</small> Audited  |  Made with 💜 by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Desginer</a></p>
       </footer>
     </div>
   );
