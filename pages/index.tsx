@@ -101,7 +101,7 @@ const Home: NextPage = () => {
               <li>Winners are randomly selected instantly</li>
               <li>Odds of winning are 1 in 200</li>
               <li>Jackpot must be claimed by the winner</li>
-              <li>No maximun amount of entries</li>
+              <li>No maximum amount of entries</li>
               <li>Transaction fees are not included</li>
             </ul>
 
