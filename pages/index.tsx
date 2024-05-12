@@ -50,12 +50,12 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h4>🎩 Win The Growing Jackpot</h4>
+            <h4>Win The Growing Jackpot 🎩</h4>
             <h2>75,040 <small>$DEGEN</small></h2>
             <p>Last updated 3 mins ago</p>
           </div>
           <div className={styles.two}>
-            <h4>🎟️ Tickets On Sale</h4>
+            <h4>Tickets On Sale 🎟️</h4>
             <h2>1 Tix = 20$ / 5 Tix = 80$</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a> &nbsp; <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Smart Contract <small>🟢</small> Audited  &nbsp;|&nbsp;  Made with 💛 by &nbsp;<a href="https://northvanweb.com/" rel="noopener noreferrer" target="_blank">Neos</a> &nbsp;/&nbsp; <a href="https://warpcast.com/" rel="noopener noreferrer">Web3Desginer</a></p>
+        <p>Smart Contract <small>🟢</small> Audited  &nbsp;|&nbsp;  Made with 💛 by &nbsp;<a href="https://northvanweb.com/" rel="noopener noreferrer" target="_blank">Neos</a> &nbsp;|&nbsp; <a href="https://warpcast.com/" rel="noopener noreferrer">Web3Desginer</a></p>
       </footer>
     </div>
   );
