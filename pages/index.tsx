@@ -114,6 +114,8 @@ const Home: NextPage = () => {
           alt="Pot Pie Chart"
         />
 
+        <br />
+
         <ConnectButton />
 
       </main>

@@ -15,7 +15,7 @@
 .footer {
   display: flex;
   flex: 1;
-  margin: 32px 0 0 0;
+  margin: 64px 0 0 0;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
@@ -210,6 +210,7 @@
   height: inherit;
   min-width: 320px;
   max-width: 568px;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
