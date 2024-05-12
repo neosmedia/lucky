@@ -11,12 +11,12 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lucky Jackpot | Win 75/25 Degen Jackpot Prize</title>
+        <title>Lucky Jackpot</title>
         <meta
           content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
           name="description"
         />
-        <link href="/favicon.ico" rel="icon" />
+        <link href="../favicon.ico" rel="icon" />
       </Head>
 
       <nav>
@@ -80,13 +80,13 @@ const Home: NextPage = () => {
               <li>The winner is selected randomly
 
                 <ul>
-                  <li>75% goes to winner</li>
+                  <li>75% goes to one winner</li>
                   <li>15% reserved for the next jackpot</li>
                   <li>10% goes to developers</li>
                 </ul>
 
               </li>
-              <li>Jackpot is held in secure wallet until there is a winner degenjackpot.id.cb</li>
+              <li>Jackpot is held in a secure wallet until there is a winner degenjackpot.id.cb</li>
             </ol>
           </div>
 
