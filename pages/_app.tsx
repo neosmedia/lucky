@@ -15,7 +15,7 @@ import {
 import { getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 
 const config = getDefaultConfig({
-  appName: 'Luck Jackpot',
+  appName: 'Lucky Jackpot',
   projectId: 'YOUR_PROJECT_ID',
   chains: [
     mainnet,
