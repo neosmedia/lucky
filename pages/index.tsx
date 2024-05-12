@@ -16,7 +16,7 @@ const Home: NextPage = () => {
           content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
           name="description"
         />
-        <link href="../favicon.ico" rel="icon" />
+        <link href="/favicon.ico" rel="icon" />
       </Head>
 
       <nav>
