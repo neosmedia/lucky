@@ -6,7 +6,7 @@ import Image from 'next/image';
 import luckyLogo from '../images/lucky-logo.svg';
 import luckyHero from '../images/lucky-hero.png';
 import potPie from '../images/pot-pie.png';
-import favicon from 'icon.ico'
+import favIcon from '../images/favicon.png'
 
 const Home: NextPage = () => {
   return (
@@ -18,10 +18,7 @@ const Home: NextPage = () => {
           name="description"
         />
 
-        <link href="icon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link href="/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
-        <link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
-        <link href="/images/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+        <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 
       </Head>
 
@@ -128,7 +125,16 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Smart Contract <small>🟢</small> Audited  |  Made with 💜 by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Desginer</a></p>
+        <Image
+          src={favIcon}
+          width="20"
+          height="20"
+          alt="Lucky Jackpot Icon"
+        />
+
+        &nbsp;
+
+        <p>Smart Contract audited  |  Made with 💜 by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Desginer</a> &copy;2024</p>
       </footer>
     </div>
   );
