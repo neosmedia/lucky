@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Lucky Jackpot | Win 75/25 Degen Jackpot Prize</title>
         <meta
-          content="Win Degen token in Lucky Jackpot by Neos"
+          content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
           name="description"
         />
         <link href="/favicon.ico" rel="icon" />
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
           <div className={styles.two}>
             <h4>Tickets On Sale 🎟️</h4>
             <h2>1 Tix = 20$ / 5 Tix = 80$</h2>
-            <a className={styles.btn} href="#">Get 1 ticket 20$</a> &nbsp; <a className={styles.btn} href="#">Get 5 tickets 80$</a>
+            <a className={styles.btn} href="#">Get 1 ticket 20$</a>  <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
         </div>
 
