@@ -14,11 +14,19 @@ const Home: NextPage = () => {
       <Head>
         <title>Lucky Jackpot</title>
         <meta
-          content="Win Degen tokens in the Lucky Jackpot 75/25 draw"
+          content="Win Degen tokens in the Lucky Jackpot 75/25 random draw"
           name="description"
         />
 
         <link href="https://luckyjackpot.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.b34c1433.png&w=48&q=75" rel="shortcut icon" type="image/x-icon" />
+
+        <meta property=’og:title’ content='Lucky Jackpot' />
+        <meta property=’og:image’ content='https://i.ibb.co/gyhfcFy/social-tn.png' />
+        <meta property=’og:description’ content='Win Degen tokens in the Lucky Jackpot 75/25 random draw' />
+        <meta property=’og:url’ content='https://www.luckyjackpot.xyz' />
+        <meta property=’og:image:width’ content='1200' />
+        <meta property=’og:image:height’ content='627' />
+        <meta property="og:type" content='website'/>
 
       </Head>
 
