@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Lucky Jackpot</title>
         <meta
-          content="Win Degen tokens in the Lucky Jackpot 75/25 random draw"
+          content="Win Degen tokens in the Lucky 75/25 Jackpot"
           name="description"
         />
 
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 
         <meta property="og:title" content="Lucky Jackpot" />
         <meta property="og:image" content="https://i.ibb.co/gyhfcFy/social-tn.png" />
-        <meta property="og:description" content="Win Degen tokens in the Lucky Jackpot 75/25 random draw" />
+        <meta property="og:description" content="Win Degen tokens in the Lucky 75/25 Jackpot" />
         <meta property="og:url" content="https://www.luckyjackpot.xyz" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
