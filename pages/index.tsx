@@ -23,7 +23,10 @@ const Home: NextPage = () => {
           rel="shortcut icon"
           type="image/x-icon"
         />
-
+        <link
+          href="https://luckyjackpot.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.b34c1433.png&w=48&q=75"
+          rel="apple-touch-icon"
+        />
         <meta property="og:title" content="Lucky Jackpot" />
         <meta property="og:image" content="https://i.ibb.co/gyhfcFy/social-tn.png" />
         <meta property="og:description" content="Win Degen tokens in the Lucky 75/25 Jackpot" />
