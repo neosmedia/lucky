@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
         <link
           href="https://luckyjackpot.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.b34c1433.png&w=48&q=75"
-          rel="icon"
+          rel="shortcut icon"
           type="image/x-icon"
         />
         <link
