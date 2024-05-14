@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           type="image/x-icon"
         />
         <link
-          href="images/favicon.png"
+          href="/images/apple-touch-icon.png"
           rel="apple-touch-icon"
         />
         <meta property="og:title" content="Lucky Jackpot" />
