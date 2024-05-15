@@ -149,7 +149,7 @@ const Home: NextPage = () => {
 
         &nbsp;
 
-        <p>Smart Contract audited  |  Made with 💜 by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Desginer</a> &copy;2024</p>
+        <p>by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Desginer</a> &copy;2024</p>
       </footer>
     </div>
   );
