@@ -101,7 +101,7 @@
 @media (max-width: 600px) {
   .two {
     flex: 1;
-    margin: 0 24px;
+    margin: 0 23px;
     padding: 12px 0;
     border-left: 0px solid #819b86;
     border-top: 1px solid #819b86;
