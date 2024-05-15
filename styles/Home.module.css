@@ -101,7 +101,7 @@
 @media (max-width: 600px) {
   .two {
     flex: 1;
-    margin: 0 20px;
+    margin: 0 24px;
     padding: 12px 0;
     border-left: 0px solid #819b86;
     border-top: 1px solid #819b86;
@@ -135,7 +135,7 @@
 }
 
 .btn {
-  margin: 8px 4px 8px 0;
+  margin: 8px 4px 12px 0;
   padding: 8px 12px;
   height: 40px;
   display: inline-block;
@@ -150,7 +150,7 @@
 @media (max-width: 600px) {
   .btn {
     width: 100%;
-    margin: 8px 0;
+    margin: 8px 0 12px 0;
     flex-direction: row;
     text-align: center;
   }
