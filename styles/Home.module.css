@@ -20,7 +20,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  color: #555;
+  color: #666;
+  font-size: 0.85rem;
 }
 
 .footer a {
@@ -176,13 +177,6 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 350px;
   box-shadow: 0 4px 0 0 #333;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0d76fc;
-  border-color: #0d76fc;
 }
 
 .card h3 {

@@ -149,7 +149,7 @@ const Home: NextPage = () => {
 
         &nbsp;
 
-        <p>by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Designer</a> &copy;2024</p>
+        <p>Lucky Jackpot by <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">Neos</a>  |  <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">Web3Designer</a> &copy;2024</p>
       </footer>
     </div>
   );
