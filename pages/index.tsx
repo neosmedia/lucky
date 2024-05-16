@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             <p>Jackpot grows until a random winner is selected - follow these steps to play</p>
 
             <ol>
-              <li>Buy tickets for a chance to win
+              <li>Buy tickets for your chance to win
                 
                 <ul>
                   <li>20 $DEGEN for 1 ticket</li>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                 </ul>
 
               </li>
-              <li>Jackpot is sent directly to the winner</li>
+              <li>Jackpot is sent directly to the winner and a new Jackpot begins</li>
             </ol>
           </div>
 
