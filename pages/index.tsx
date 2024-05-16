@@ -112,15 +112,16 @@ const Home: NextPage = () => {
             <h3>Rules 📐</h3>
 
             <p>The structure of the game is written in a smart contract for all to see</p>
-            <br />
+
             <ul>
               <li>Each ticket has a chance to win the Lucky Jackpot</li>
-              <li>Purchase ticket(s) with $DEGEN token on Base Network</li>
+              <li>Purchase ticket(s) with $DEGEN token using UI or send directly to contract</li>
               <li>Winners are randomly selected</li>
               <li>Odds of winning are 1 in 200</li>
-              <li>Permissionless</li>
               <li>Max 200 tickets per person</li>
               <li>Txn fees are not included</li>
+              <li>Base Network</li>
+              <li>Permissionless</li>
             </ul>
 
           </div>
