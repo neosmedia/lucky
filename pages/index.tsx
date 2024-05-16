@@ -74,7 +74,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.two}>
             <h4>Purchase tickets with $DEGEN 🎟️</h4>
-            <h2>1 Tix = 20$ or 5 Tix = 80$</h2>
+            <h2>Tickets 20 $degen each</h2>
             <a className={styles.btn} href="#">Get 1 ticket 20$</a>  <a className={styles.btn} href="#">Get 5 tickets 80$</a>
           </div>
         </div>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                 </ul>
 
               </li>
-              <li>Jackpot is held in a secure wallet until there is a winner</li>
+              <li>Jackpot is sent directly to the winner</li>
             </ol>
           </div>
 
@@ -114,13 +114,13 @@ const Home: NextPage = () => {
             <p>The structure of the game is written in a smart contract for all to see</p>
             <br />
             <ul>
-              <li>Each ticket has a chance to win the jackpot</li>
+              <li>Each ticket has a chance to win the Lucky Jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token on Base Network</li>
               <li>Winners are randomly selected</li>
               <li>Odds of winning are 1 in 200</li>
-              <li>Jackpot must be claimed by the winner</li>
-              <li>No maximum amount of entries</li>
-              <li>Transaction fees are not included</li>
+              <li>Permissionless</li>
+              <li>Max 200 tickets per person</li>
+              <li>Txn fees are not included</li>
             </ul>
 
           </div>
