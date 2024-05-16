@@ -5,6 +5,10 @@ This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Ne
 First, run the development server:
 
 ```bash
+npm run build
+```
+
+```bash
 npm run dev
 ```
 
