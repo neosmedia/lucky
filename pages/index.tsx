@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           <div className={styles.two}>
             <h4>Purchase tickets with $DEGEN 🎟️</h4>
             <h2>Tickets 20 $degen each</h2>
-            <a className={styles.btn} href="#">Get 1 ticket 20$</a>  <a className={styles.btn} href="#">Get 5 tickets 80$</a>
+            <a className={styles.btn} href="#">Get 1 ticket 20$</a>  <a className={styles.btn} href="#">Get 5 tickets 100$</a>
           </div>
         </div>
 
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
                 
                 <ul>
                   <li>20 $DEGEN for 1 ticket</li>
-                  <li>80 $DEGEN for 5 tickets</li>
+                  <li>100 $DEGEN for 5 tickets</li>
                 </ul>
 
               </li>
