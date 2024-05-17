@@ -118,10 +118,10 @@ const Home: NextPage = () => {
               <li>Purchase ticket(s) with $DEGEN token using UI or send directly to contract</li>
               <li>Winners are randomly selected</li>
               <li>Odds of winning are 1 in 200</li>
+              <li>Winner must claim Jackpot</li>
               <li>Max 200 tickets per person</li>
-              <li>Txn fees are not included</li>
               <li>Base Network</li>
-              <li>Permissionless</li>
+              <li>Txn fees are not included</li>
             </ul>
 
           </div>
