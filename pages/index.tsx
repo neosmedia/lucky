@@ -99,8 +99,8 @@ const Home: NextPage = () => {
 
                 <ul>
                   <li>75% goes to one winner</li>
-                  <li>15% reserved for the next pot</li>
-                  <li>10% goes to developers</li>
+                  <li>15% reserved for the next Jackpot</li>
+                  <li>10% funds development</li>
                 </ul>
 
               </li>
