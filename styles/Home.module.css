@@ -36,7 +36,7 @@
 
 .title {
   margin: 2rem 0;
-  color: #3D3D3D;
+  color: #3d3d3d;
   line-height: 1;
   font-size: 2.8rem;
   text-transform: uppercase;
@@ -54,7 +54,7 @@
 }
 
 .subtitle {
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
@@ -110,15 +110,13 @@
 
 .one h2 {
   margin: 0 0 8px 0;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 2.1rem;
   text-transform: uppercase;
-
 }
 
 .one p {
   margin: 0;
-
 }
 
 .one h4,
@@ -129,7 +127,7 @@
 
 .two h2 {
   margin: 0 0 8px 0;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 1.1rem;
   text-transform: uppercase;
 }
@@ -145,6 +143,10 @@
   box-shadow: 0 4px 0 0 #333;
   font-size: 1.05rem;
   font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 600px) {
@@ -181,7 +183,7 @@
 
 .card h3 {
   margin: 0 0 1rem 0;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
   font-size: 1.1rem;
   text-transform: uppercase;
 }
@@ -193,16 +195,12 @@
 }
 
 .card ol,
-.card ul  {
+.card ul {
   padding: 0 0 1rem 1rem;
 }
 
-.card ol {
-  line-height: 1.8;
-}
-
-.card ul  {
-  line-height: 1.8;
+.card ul {
+  line-height: 1.4;
 }
 
 .responsive {
