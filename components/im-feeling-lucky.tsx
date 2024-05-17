@@ -27,26 +27,34 @@ export const FeelingLucky = ({ plays }: Props) => {
       return;
     }
 
-    const feelingLuckyTxnHash = await writeContractAsync({
-      address: JACKPOT_ADDRESS,
-      abi: feelingLuckyAbi,
-      functionName: "feelingLucky",
-      args: [BigInt(plays)],
-    });
+    try {
+      const feelingLuckyTxnHash = await writeContractAsync({
+        address: JACKPOT_ADDRESS,
+        abi: feelingLuckyAbi,
+        functionName: "feelingLucky",
+        args: [BigInt(plays)],
+      });
 
-    await waitForTransactionReceipt(
-      createConfig({
-        chains: [CHAIN],
-        transports: {
-          [CHAIN.id]: http(),
-        },
-      }),
-      {
-        confirmations: 1,
-        chainId: CHAIN.id,
-        hash: feelingLuckyTxnHash,
-      }
-    );
+      toast.loading("Submitting transaction", { id: transactionToastId });
+
+      await waitForTransactionReceipt(
+        createConfig({
+          chains: [CHAIN],
+          transports: {
+            [CHAIN.id]: http(),
+          },
+        }),
+        {
+          confirmations: 1,
+          chainId: CHAIN.id,
+          hash: feelingLuckyTxnHash,
+        }
+      );
+
+      toast.success("Complete!", { id: transactionToastId });
+    } catch (ex) {
+      toast.error("Transaction failed", { id: transactionToastId });
+    }
   }, [chainUnsupported, openChainModal, plays, writeContractAsync]);
 
   return (
