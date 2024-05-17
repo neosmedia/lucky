@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       </Head>
 
       <nav>
-        <Image src={luckyLogo} width="80" height="36" alt="Lucky Logo" />
+        <Image src={luckyLogo} width="80" height="36" alt="Lucky Jackpot Logo" />
 
         <ul>
           <li>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <Image src={favIcon} width="20" height="20" alt="Lucky Jackpot Icon" />
+        <Image src={favIcon} width="20" height="20" alt="Lucky 75/25 Jackpot" />
         &nbsp;
         <p>
           Lucky Jackpot by{" "}
