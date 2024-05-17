@@ -28,11 +28,6 @@ export const BuyTicket = () => {
     async (amount: string) => {
       const transactionToastId = toast.loading("Awaiting token approval...");
 
-      if (chainUnsupported) {
-        toast.error("Chain not supported!", { id: transactionToastId });
-        return;
-      }
-
       try {
         const allowanceIncreaseTxnHash = await writeContractAsync({
           address: DEGEN_ADDRESS,
@@ -105,10 +100,10 @@ export const BuyTicket = () => {
       <p
         className={styles.btn}
         onClick={async () => {
-          await enterDraw("80");
+          await enterDraw("100");
         }}
       >
-        Get 5 tickets 80$
+        Get 5 tickets 100$
       </p>
     </>
   );

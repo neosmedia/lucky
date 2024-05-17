@@ -49,7 +49,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.two}>
             <h4>Purchase tickets with $DEGEN 🎟️</h4>
-            <h2>1 Tix = 20$ or 5 Tix = 80$</h2>
+            <h2>Tickets 20 $DEGEN each</h2>
             <BuyTicket />
           </div>
         </div>
