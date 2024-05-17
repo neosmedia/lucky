@@ -28,11 +28,13 @@ export const FeelingLucky = ({ plays }: Props) => {
     }
 
     try {
+      const toPlay = plays > 200 ? 200 : plays;
+
       const feelingLuckyTxnHash = await writeContractAsync({
         address: JACKPOT_ADDRESS,
         abi: feelingLuckyAbi,
         functionName: "feelingLucky",
-        args: [BigInt(plays)],
+        args: [BigInt(toPlay)],
       });
 
       toast.loading("Submitting transaction", { id: transactionToastId });

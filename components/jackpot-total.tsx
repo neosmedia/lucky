@@ -1,13 +1,28 @@
 import { formatEther } from "viem";
-import { useReadContract } from "wagmi";
+import { useReadContract, useWatchContractEvent } from "wagmi";
 import { JACKPOT_ADDRESS } from "../utils/contract-addresses";
 import { tokenBalanceAbi } from "../utils/contracts/token-balance-abi";
+import { tokensReceivedAbi } from "../utils/contracts/tokens-received-abi";
 
 export const JackpotTotal = () => {
-  const { data: jackpotTotal, isLoading } = useReadContract({
+  const {
+    data: jackpotTotal,
+    isLoading,
+    refetch,
+  } = useReadContract({
     address: JACKPOT_ADDRESS,
     abi: tokenBalanceAbi,
     functionName: "tokenBalance",
+  });
+
+  useWatchContractEvent({
+    address: JACKPOT_ADDRESS,
+    abi: tokensReceivedAbi,
+    eventName: "TokensReceived",
+    onLogs() {
+      console.log("Tokens received");
+      refetch();
+    },
   });
 
   return (
