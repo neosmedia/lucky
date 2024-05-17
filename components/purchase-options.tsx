@@ -5,8 +5,10 @@ import { getAddress, zeroAddress } from "viem";
 import { useAccount, useReadContract, useWatchContractEvent } from "wagmi";
 import styles from "../styles/Home.module.css";
 import { JACKPOT_ADDRESS } from "../utils/contract-addresses";
+import { gamePlayedAbi } from "../utils/contracts/game-played-abi";
 import { gameWonAbi } from "../utils/contracts/game-won-abi";
 import { checkRemainingPlaysAbi } from "../utils/contracts/remaining-plays-abi";
+import { tokensReceivedAbi } from "../utils/contracts/tokens-received-abi";
 import { BuyTicket } from "./buy-ticket";
 import { FeelingLucky } from "./im-feeling-lucky";
 
@@ -15,11 +17,38 @@ export const PurchaseOptions = () => {
 
   const [winner, setWinner] = useState<boolean>(false);
 
-  const { data: remainingPlays, isLoading } = useReadContract({
+  const {
+    data: remainingPlays,
+    isLoading,
+    refetch,
+  } = useReadContract({
     address: JACKPOT_ADDRESS,
     abi: checkRemainingPlaysAbi,
     args: [address ?? zeroAddress],
     functionName: "checkRemainingPlays",
+  });
+
+  useWatchContractEvent({
+    address: JACKPOT_ADDRESS,
+    abi: tokensReceivedAbi,
+    eventName: "TokensReceived",
+    onLogs(logs) {
+      if (!address) {
+        return;
+      }
+
+      const fromConnectedAddress = logs.some((log) => {
+        if (!log.args.from) {
+          return false;
+        }
+
+        return getAddress(log.args.from) === getAddress(address);
+      });
+
+      if (fromConnectedAddress) {
+        refetch();
+      }
+    },
   });
 
   useWatchContractEvent({
@@ -40,6 +69,29 @@ export const PurchaseOptions = () => {
       });
 
       setWinner(isWinner);
+    },
+  });
+
+  useWatchContractEvent({
+    address: JACKPOT_ADDRESS,
+    abi: gamePlayedAbi,
+    eventName: "GamePlayed",
+    onLogs(logs) {
+      if (!address) {
+        return;
+      }
+
+      const fromConnectedAddress = logs.some((log) => {
+        if (!log.args.player) {
+          return false;
+        }
+
+        return getAddress(log.args.player) === getAddress(address);
+      });
+
+      if (fromConnectedAddress) {
+        refetch();
+      }
     },
   });
 

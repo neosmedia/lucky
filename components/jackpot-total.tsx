@@ -20,7 +20,6 @@ export const JackpotTotal = () => {
     abi: tokensReceivedAbi,
     eventName: "TokensReceived",
     onLogs() {
-      console.log("Tokens received");
       refetch();
     },
   });
