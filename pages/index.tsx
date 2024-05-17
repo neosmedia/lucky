@@ -87,11 +87,11 @@ const Home: NextPage = () => {
             <p>Jackpot grows until a random winner is selected - follow these steps to play</p>
 
             <ol>
-              <li>Buy tickets for your chance to win
+              <li>Buy tickets for a chance to win the draw
                 
                 <ul>
-                  <li>20 $DEGEN for 1 ticket</li>
-                  <li>100 $DEGEN for 5 tickets</li>
+                  <li>1 ticket for 20 $DEGEN</li>
+                  <li>5 tickets for 100 $DEGEN</li>
                 </ul>
 
               </li>
