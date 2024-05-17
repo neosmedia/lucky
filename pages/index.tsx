@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { BuyTicket } from "../components/buy-ticket";
+import { JackpotTotal } from "../components/jackpot-total";
 import favIcon from "../images/favicon.png";
 import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
@@ -44,11 +45,7 @@ const Home: NextPage = () => {
 
         <div className={styles.box}>
           <div className={styles.one}>
-            <h4>Growing Jackpot Total 🎩</h4>
-            <h2>
-              75,040 <small>$DEGEN</small>
-            </h2>
-            <p>Last updated 3 mins ago</p>
+            <JackpotTotal />
           </div>
           <div className={styles.two}>
             <h4>Purchase tickets with $DEGEN 🎟️</h4>
