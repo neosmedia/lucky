@@ -92,7 +92,7 @@ export const BuyTicket = () => {
         }
       }
     },
-    [chainUnsupported, openChainModal, writeContractAsync]
+    [chainUnsupported, isConnected, openChainModal, openConnectModal, writeContractAsync]
   );
 
   return (
