@@ -2,8 +2,8 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { BuyTicket } from "../components/buy-ticket";
 import { JackpotTotal } from "../components/jackpot-total";
+import { PurchaseOptions } from "../components/purchase-options";
 import favIcon from "../images/favicon.png";
 import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
@@ -48,9 +48,7 @@ const Home: NextPage = () => {
             <JackpotTotal />
           </div>
           <div className={styles.two}>
-            <h4>Purchase tickets with $DEGEN 🎟️</h4>
-            <h2>Tickets 20 $DEGEN each</h2>
-            <BuyTicket />
+            <PurchaseOptions />
           </div>
         </div>
 

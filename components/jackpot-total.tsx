@@ -1,7 +1,7 @@
 import { formatEther } from "viem";
 import { useReadContract } from "wagmi";
-import { JACKPOT_ADDRESS } from "../utils/contract-addressex";
-import { tokenBalanceAbi } from "../utils/contracts/token-balance";
+import { JACKPOT_ADDRESS } from "../utils/contract-addresses";
+import { tokenBalanceAbi } from "../utils/contracts/token-balance-abi";
 
 export const JackpotTotal = () => {
   const { data: jackpotTotal, isLoading } = useReadContract({

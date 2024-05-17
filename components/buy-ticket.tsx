@@ -1,32 +1,31 @@
 "use client";
+import { useChainModal } from "@rainbow-me/rainbowkit";
 import { waitForTransactionReceipt } from "@wagmi/core";
-import { useCallback, useMemo } from "react";
+import { useCallback } from "react";
 import toast from "react-hot-toast";
 import { http, parseEther } from "viem";
-import { sepolia } from "viem/chains";
-import { createConfig, useAccount, useConfig, useWriteContract } from "wagmi";
+import { createConfig, useWriteContract } from "wagmi";
+import { useChainUnsupported } from "../hooks/useChainUnsupported";
 import styles from "../styles/Home.module.css";
-import { DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-addressex";
+import { CHAIN, DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-addresses";
 import { enterDrawAbi } from "../utils/contracts/enter-draw-abi";
 import { increaseAllowanceAbi } from "../utils/contracts/increase-allowance-abi";
 
 export const BuyTicket = () => {
   const { writeContractAsync } = useWriteContract();
 
-  const { chains } = useConfig();
-  const { chain } = useAccount();
-
-  const chainUnsupported = useMemo(() => {
-    if (!chain) {
-      return true;
-    }
-
-    return !chains.includes(chain);
-  }, [chain, chains]);
+  const chainUnsupported = useChainUnsupported();
+  const { openChainModal } = useChainModal();
 
   const enterDraw = useCallback(
     async (amount: string) => {
       const transactionToastId = toast.loading("Awaiting token approval...");
+
+      if (chainUnsupported) {
+        toast.error("Unsupported chain", { id: transactionToastId });
+        openChainModal?.();
+        return;
+      }
 
       try {
         const allowanceIncreaseTxnHash = await writeContractAsync({
@@ -38,14 +37,14 @@ export const BuyTicket = () => {
 
         await waitForTransactionReceipt(
           createConfig({
-            chains: [sepolia],
+            chains: [CHAIN],
             transports: {
-              [sepolia.id]: http(),
+              [CHAIN.id]: http(),
             },
           }),
           {
             confirmations: 1,
-            chainId: sepolia.id,
+            chainId: CHAIN.id,
             hash: allowanceIncreaseTxnHash,
           }
         );
@@ -63,14 +62,14 @@ export const BuyTicket = () => {
 
         await waitForTransactionReceipt(
           createConfig({
-            chains: [sepolia],
+            chains: [CHAIN],
             transports: {
-              [sepolia.id]: http(),
+              [CHAIN.id]: http(),
             },
           }),
           {
             confirmations: 1,
-            chainId: sepolia.id,
+            chainId: CHAIN.id,
             hash: enterDrawTxnHash,
           }
         );
@@ -84,7 +83,7 @@ export const BuyTicket = () => {
         }
       }
     },
-    [writeContractAsync]
+    [chainUnsupported, openChainModal, writeContractAsync]
   );
 
   return (
