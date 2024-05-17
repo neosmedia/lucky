@@ -16,6 +16,7 @@ export const PurchaseOptions = () => {
   const { address } = useAccount();
 
   const [winner, setWinner] = useState<boolean>(false);
+  const [loser, setLoser] = useState<boolean>(false);
 
   const {
     data: remainingPlays,
@@ -90,7 +91,7 @@ export const PurchaseOptions = () => {
       });
 
       if (fromConnectedAddress) {
-        refetch();
+        setLoser(true);
       }
     },
   });
@@ -99,12 +100,40 @@ export const PurchaseOptions = () => {
     return <p>Loading...</p>;
   }
 
+  if (loser) {
+    return (
+      <>
+        <h4>Sorry, Your ticket is not a winner</h4>
+        <p>Better luck next time</p>
+        <p
+          className={styles.btn}
+          onClick={() => {
+            refetch();
+            setLoser(false);
+            setWinner(false);
+          }}
+        >
+          Play Again
+        </p>
+      </>
+    );
+  }
+
   if (winner) {
     return (
       <>
         <h4>Your ticket is a winner 🎉</h4>
         <h2>Congratulations, you won the Jackpot!</h2>
-        <p className={styles.btn}>Play Again</p>
+        <p
+          className={styles.btn}
+          onClick={() => {
+            refetch();
+            setLoser(false);
+            setWinner(false);
+          }}
+        >
+          Play Again
+        </p>
       </>
     );
   }

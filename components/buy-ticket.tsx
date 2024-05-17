@@ -1,10 +1,10 @@
 "use client";
-import { useChainModal } from "@rainbow-me/rainbowkit";
+import { useChainModal, useConnectModal } from "@rainbow-me/rainbowkit";
 import { waitForTransactionReceipt } from "@wagmi/core";
 import { useCallback } from "react";
 import toast from "react-hot-toast";
 import { http, parseEther } from "viem";
-import { createConfig, useWriteContract } from "wagmi";
+import { createConfig, useAccount, useWriteContract } from "wagmi";
 import { useChainUnsupported } from "../hooks/useChainUnsupported";
 import styles from "../styles/Home.module.css";
 import { CHAIN, DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-addresses";
@@ -12,6 +12,9 @@ import { enterDrawAbi } from "../utils/contracts/enter-draw-abi";
 import { increaseAllowanceAbi } from "../utils/contracts/increase-allowance-abi";
 
 export const BuyTicket = () => {
+  const { isConnected } = useAccount();
+  const { openConnectModal } = useConnectModal();
+
   const { writeContractAsync } = useWriteContract();
 
   const chainUnsupported = useChainUnsupported();
@@ -20,6 +23,12 @@ export const BuyTicket = () => {
   const enterDraw = useCallback(
     async (amount: string) => {
       const transactionToastId = toast.loading("Awaiting token approval...");
+
+      if (!isConnected) {
+        toast.error("Not connected", { id: transactionToastId });
+        openConnectModal?.();
+        return;
+      }
 
       if (chainUnsupported) {
         toast.error("Unsupported chain", { id: transactionToastId });
