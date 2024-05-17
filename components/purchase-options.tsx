@@ -33,7 +33,7 @@ export const PurchaseOptions = () => {
     address: JACKPOT_ADDRESS,
     abi: tokensReceivedAbi,
     eventName: "TokensReceived",
-    onLogs(logs: { args: { from: string } }[]) {
+    onLogs(logs: any[]) {
       if (!address) {
         return;
       }
@@ -56,7 +56,7 @@ export const PurchaseOptions = () => {
     address: JACKPOT_ADDRESS,
     abi: gameWonAbi,
     eventName: "GameWon",
-    onLogs(logs: { args: { winner: string } }[]) {
+    onLogs(logs: any[]) {
       if (!address) {
         return;
       }
@@ -77,7 +77,7 @@ export const PurchaseOptions = () => {
     address: JACKPOT_ADDRESS,
     abi: gamePlayedAbi,
     eventName: "GamePlayed",
-    onLogs(logs: { args: { player: string } }[]) {
+    onLogs(logs: any[]) {
       if (!address) {
         return;
       }
