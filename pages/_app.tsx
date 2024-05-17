@@ -6,12 +6,12 @@ import { RainbowKitProvider, getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
 import { WagmiProvider } from "wagmi";
-import { arbitrum, base, mainnet, optimism, polygon, sepolia } from "wagmi/chains";
+import { sepolia } from "wagmi/chains";
 
 const config = getDefaultConfig({
   appName: "Lucky Jackpot",
   projectId: "f927b169e272f8fdcf2800c0211da5b9",
-  chains: [mainnet, polygon, optimism, arbitrum, base, ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [sepolia] : [])],
+  chains: [sepolia],
   ssr: true,
 });
 
