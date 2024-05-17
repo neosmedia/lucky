@@ -95,7 +95,7 @@ const Home: NextPage = () => {
                 </ul>
 
               </li>
-              <li>The winner is selected randomly
+              <li>A winner is selected randomly
 
                 <ul>
                   <li>75% goes to one winner</li>
