@@ -83,9 +83,9 @@ export const BuyTicket = () => {
           }
         );
 
-        toast.success("Entered draw!", { id: transactionToastId });
+        toast.success("Tickets purchased", { id: transactionToastId });
       } catch (ex: any) {
-        if (ex.message.includes("User rejected the request.")) {
+        if (ex.message.includes("User rejected the request")) {
           toast.error("User rejected the request", { id: transactionToastId });
         } else {
           toast.error("An error occurred", { id: transactionToastId });
