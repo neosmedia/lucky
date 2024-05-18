@@ -3,10 +3,9 @@ import "@rainbow-me/rainbowkit/styles.css";
 import { coinbaseWallet, metaMaskWallet, phantomWallet, rabbyWallet, rainbowWallet, walletConnectWallet } from "@rainbow-me/rainbowkit/wallets";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import type { AppProps } from "next/app";
-import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { http } from "viem";
-import { base } from "viem/chains";
+import { base, sepolia } from "viem/chains";
 import { WagmiProvider, createConfig } from "wagmi";
 import "../styles/globals.css";
 
@@ -26,39 +25,17 @@ const connectors = connectorsForWallets(
 );
 
 const config = createConfig({
-  chains: [base],
+  chains: [base, sepolia],
   connectors,
   transports: {
-    [base.id]: http("https://mainnet.base.org"),
+    [base.id]: http(),
+    [sepolia.id]: http(),
   },
 });
-
-// const config = getDefaultConfig({
-//   appName: "Lucky Jackpot",
-//   projectId: "f927b169e272f8fdcf2800c0211da5b9",
-//   chains: [CHAIN],
-
-//   ssr: true,
-// });
 
 const client = new QueryClient();
 
 function MyApp({ Component, pageProps }: AppProps) {
-  useEffect(() => {
-    if (!window || !localStorage) {
-      return;
-    }
-
-    const hasClearedLocalStorage = localStorage.getItem("hasClearedLocalStorage");
-
-    if (!hasClearedLocalStorage) {
-      console.log("clearing");
-      localStorage.clear();
-      sessionStorage.clear();
-      localStorage.setItem("hasClearedLocalStorage", "true");
-    }
-  }, []);
-
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={client}>

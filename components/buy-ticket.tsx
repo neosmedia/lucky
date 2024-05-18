@@ -91,7 +91,6 @@ export const BuyTicket = ({ refetch }: Props) => {
 
         refetch();
       } catch (ex: any) {
-        console.log(ex);
         if (ex.message.includes("User rejected the request")) {
           toast.error("User rejected the request", { id: transactionToastId });
         } else {
