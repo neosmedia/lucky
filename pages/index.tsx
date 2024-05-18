@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Lucky 75/25 Jackpot</h1>
 
-        <Image src={luckyHero} width="320" height="182" alt="Lucky Jackpot Hero" />
+        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
         <div className={styles.box}>
           <div className={styles.one}>
