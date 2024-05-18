@@ -53,7 +53,7 @@ export const FeelingLucky = ({ plays }: Props) => {
         }
       );
 
-      toast.success("Complete!", { id: transactionToastId });
+      toast.success("Entered in draw!", { id: transactionToastId });
     } catch (ex) {
       toast.error("Transaction failed", { id: transactionToastId });
     }

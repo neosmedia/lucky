@@ -132,7 +132,7 @@ export const PurchaseOptions = () => {
             setWinner(false);
           }}
         >
-          Play Again
+          Claim Winnings
         </p>
       </>
     );
