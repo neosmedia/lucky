@@ -62,7 +62,7 @@ export const FeelingLucky = ({ plays }: Props) => {
   return (
     <>
       <h4>You have {plays} tickets ready! 🎟️</h4>
-      <p>{`Press button below then check your wallet`}</p>
+      <p>{`Press button below then check wallet`}</p>
       <p
         className={styles.btn}
         onClick={async () => {
