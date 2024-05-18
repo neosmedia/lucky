@@ -26,7 +26,7 @@ export const JackpotTotal = () => {
 
   return (
     <>
-      <h4>Win The Jackpot 🎩</h4>
+      <h4>Jackpot Total 👇</h4>
       {isLoading ? (
         <h2><small>Loading Jackpot</small></h2>
       ) : (
@@ -34,7 +34,7 @@ export const JackpotTotal = () => {
           {formatEther(jackpotTotal ?? BigInt("0"))} <small>$DEGEN</small>
         </h2>
       )}
-      <p><small>Jackpot grows until there is a winner</small></p>
+      <p><small>Jackpot grows until there's a winner</small></p>
     </>
   );
 };
