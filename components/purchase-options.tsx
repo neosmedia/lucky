@@ -103,7 +103,7 @@ export const PurchaseOptions = () => {
   if (loser) {
     return (
       <>
-        <h4>Sorry, Your ticket is not a winner</h4>
+        <h4>Sorry, not a winner</h4>
         <p>Better luck next time</p>
         <p
           className={styles.btn}
@@ -149,7 +149,7 @@ export const PurchaseOptions = () => {
   return (
     <>
       <h4>Purchase tickets with $DEGEN 🎟️</h4>
-      <h2>Tickets 20 $DEGEN each</h2>
+      <h2>Tickets 20 $DEGEN Each</h2>
       <BuyTicket />
     </>
   );
