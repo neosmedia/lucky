@@ -79,6 +79,7 @@
   margin: 0 0 24px 0;
   min-width: 320px;
   max-width: 740px;
+  min-height: 156px;
   border: 1px solid #819b86;
   background-color: #bdf0cb;
   border-radius: 20px;
