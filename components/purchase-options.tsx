@@ -123,7 +123,7 @@ export const PurchaseOptions = () => {
     return (
       <>
         <h4>Your ticket is a winner 🎉</h4>
-        <h2>Congratulations, you won the Jackpot!</h2>
+        <h2>Congrats, you won. Jackpot has been sent!</h2>
         <p
           className={styles.btn}
           onClick={() => {
@@ -132,7 +132,7 @@ export const PurchaseOptions = () => {
             setWinner(false);
           }}
         >
-          Claim Winnings
+          Play Again
         </p>
       </>
     );
