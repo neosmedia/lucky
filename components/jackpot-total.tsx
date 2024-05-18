@@ -34,7 +34,7 @@ export const JackpotTotal = () => {
           {formatEther(jackpotTotal ?? BigInt("0"))} <small>$DEGEN</small>
         </h2>
       )}
-      <p><small>Last updated 1 min ago</small></p>
+      <p><small>Updated 1 min ago</small></p>
     </>
   );
 };
