@@ -8,10 +8,14 @@ import { createConfig, useAccount, useWriteContract } from "wagmi";
 import { useChainUnsupported } from "../hooks/useChainUnsupported";
 import styles from "../styles/Home.module.css";
 import { CHAIN, DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-addresses";
+import { approveAbi } from "../utils/contracts/approve-abi";
 import { enterDrawAbi } from "../utils/contracts/enter-draw-abi";
-import { increaseAllowanceAbi } from "../utils/contracts/increase-allowance-abi";
 
-export const BuyTicket = () => {
+interface Props {
+  refetch: () => void;
+}
+
+export const BuyTicket = ({ refetch }: Props) => {
   const { isConnected } = useAccount();
   const { openConnectModal } = useConnectModal();
 
@@ -39,9 +43,9 @@ export const BuyTicket = () => {
       try {
         const allowanceIncreaseTxnHash = await writeContractAsync({
           address: DEGEN_ADDRESS,
-          abi: increaseAllowanceAbi,
+          abi: approveAbi,
           args: [JACKPOT_ADDRESS, parseEther(amount)],
-          functionName: "increaseAllowance",
+          functionName: "approve",
         });
 
         await waitForTransactionReceipt(
@@ -84,7 +88,10 @@ export const BuyTicket = () => {
         );
 
         toast.success("Tickets purchased", { id: transactionToastId });
+
+        refetch();
       } catch (ex: any) {
+        console.log(ex);
         if (ex.message.includes("User rejected the request")) {
           toast.error("User rejected the request", { id: transactionToastId });
         } else {
@@ -92,7 +99,7 @@ export const BuyTicket = () => {
         }
       }
     },
-    [chainUnsupported, isConnected, openChainModal, openConnectModal, writeContractAsync]
+    [chainUnsupported, isConnected, openChainModal, openConnectModal, refetch, writeContractAsync]
   );
 
   return (

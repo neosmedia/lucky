@@ -10,9 +10,10 @@ import { feelingLuckyAbi } from "../utils/contracts/feeling-lucky-abi";
 
 interface Props {
   plays: number;
+  refetch: () => void;
 }
 
-export const FeelingLucky = ({ plays }: Props) => {
+export const FeelingLucky = ({ plays, refetch }: Props) => {
   const { writeContractAsync } = useWriteContract();
 
   const chainUnsupported = useChainUnsupported();
@@ -53,11 +54,13 @@ export const FeelingLucky = ({ plays }: Props) => {
         }
       );
 
-      toast.success("Entered in draw!", { id: transactionToastId });
+      toast.success("You rolled for the jackpot!", { id: transactionToastId });
+
+      refetch();
     } catch (ex) {
       toast.error("Transaction failed", { id: transactionToastId });
     }
-  }, [chainUnsupported, openChainModal, plays, writeContractAsync]);
+  }, [chainUnsupported, openChainModal, plays, refetch, writeContractAsync]);
 
   return (
     <>

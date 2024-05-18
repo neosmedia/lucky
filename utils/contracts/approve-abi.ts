@@ -1,10 +1,10 @@
-export const increaseAllowanceAbi = [
+export const approveAbi = [
   {
     inputs: [
       { internalType: "address", name: "spender", type: "address" },
-      { internalType: "uint256", name: "addedValue", type: "uint256" },
+      { internalType: "uint256", name: "value", type: "uint256" },
     ],
-    name: "increaseAllowance",
+    name: "approve",
     outputs: [{ internalType: "bool", name: "", type: "bool" }],
     stateMutability: "nonpayable",
     type: "function",
