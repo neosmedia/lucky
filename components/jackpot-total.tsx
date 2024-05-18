@@ -28,7 +28,7 @@ export const JackpotTotal = () => {
     <>
       <h4>Growing Jackpot Total 🎩</h4>
       {isLoading ? (
-        <h2><small>Loading Jackpot...</small></h2>
+        <h2><small>Loading Jackpot</small></h2>
       ) : (
         <h2>
           {formatEther(jackpotTotal ?? BigInt("0"))} <small>$DEGEN</small>
