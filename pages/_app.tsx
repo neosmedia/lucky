@@ -4,7 +4,7 @@ import { coinbaseWallet, metaMaskWallet, phantomWallet, rabbyWallet, rainbowWall
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import type { AppProps } from "next/app";
 import { Toaster } from "react-hot-toast";
-import { http } from "viem";
+import { webSocket } from "viem";
 import { base, sepolia } from "viem/chains";
 import { WagmiProvider, createConfig } from "wagmi";
 import "../styles/globals.css";
@@ -28,8 +28,8 @@ const config = createConfig({
   chains: [base, sepolia],
   connectors,
   transports: {
-    [base.id]: http(),
-    [sepolia.id]: http(),
+    [base.id]: webSocket("wss://base-mainnet.infura.io/ws/v3/0254d5783c62461bbff1044fed31828b"),
+    [sepolia.id]: webSocket("https://sepolia.infura.io/v3/0254d5783c62461bbff1044fed31828b"),
   },
 });
 

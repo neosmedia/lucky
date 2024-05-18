@@ -141,7 +141,7 @@ export const PurchaseOptions = () => {
   if (remainingPlays && remainingPlays > BigInt(0)) {
     return (
       <>
-        <FeelingLucky plays={Number(remainingPlays)} refetch={refetch} />
+        <FeelingLucky plays={Number(remainingPlays)} />
       </>
     );
   }
@@ -150,7 +150,7 @@ export const PurchaseOptions = () => {
     <>
       <h4>Purchase tickets with $DEGEN 🎟️</h4>
       <h2>Tickets 20 $DEGEN Each</h2>
-      <BuyTicket refetch={refetch} />
+      <BuyTicket />
     </>
   );
 };

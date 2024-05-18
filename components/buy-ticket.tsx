@@ -11,11 +11,7 @@ import { CHAIN, DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-address
 import { approveAbi } from "../utils/contracts/approve-abi";
 import { enterDrawAbi } from "../utils/contracts/enter-draw-abi";
 
-interface Props {
-  refetch: () => void;
-}
-
-export const BuyTicket = ({ refetch }: Props) => {
+export const BuyTicket = () => {
   const { isConnected } = useAccount();
   const { openConnectModal } = useConnectModal();
 
@@ -88,8 +84,6 @@ export const BuyTicket = ({ refetch }: Props) => {
         );
 
         toast.success("Tickets purchased", { id: transactionToastId });
-
-        refetch();
       } catch (ex: any) {
         if (ex.message.includes("User rejected the request")) {
           toast.error("User rejected the request", { id: transactionToastId });
@@ -98,7 +92,7 @@ export const BuyTicket = ({ refetch }: Props) => {
         }
       }
     },
-    [chainUnsupported, isConnected, openChainModal, openConnectModal, refetch, writeContractAsync]
+    [chainUnsupported, isConnected, openChainModal, openConnectModal, writeContractAsync]
   );
 
   return (
