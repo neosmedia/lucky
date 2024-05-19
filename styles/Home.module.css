@@ -195,6 +195,11 @@
   line-height: 1.4;
 }
 
+.card a {
+  color: #333;
+  text-decoration: underline;
+}
+
 .card ol,
 .card ul {
   padding: 0 0 1rem 1rem;

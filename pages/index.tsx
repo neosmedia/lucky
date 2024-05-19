@@ -81,14 +81,19 @@ const Home: NextPage = () => {
           <div className={styles.card}>
             <h3>Rules 📐</h3>
 
-            <p>The structure of the game is written in a smart contract for all to see</p>
+            <p>
+              The structure of the game is written in a {" "}
+              <a href="https://basescan.org/address/0xe956dd84bfeb92b9eaf1324a7df10e064c171ab8" rel="noopener noreferrer" target="_blank">
+              smart contract
+              </a>{" "} for all to see
+            </p>
 
             <ul>
               <li>Each ticket has a chance to win the Lucky Jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token using UI or send directly to contract</li>
               <li>Winners are randomly selected</li>
               <li>Odds of winning are 1 in 200</li>
-              <li>Winner must claim Jackpot</li>
+              <li>Winner is sent Jackpot automatically</li>
               <li>Max 200 tickets per person</li>
               <li>Base Network</li>
               <li>Txn fees are not included</li>
