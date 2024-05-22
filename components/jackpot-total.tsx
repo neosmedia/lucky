@@ -1,7 +1,7 @@
 import { formatEther } from "viem";
 import { useReadContract, useWatchContractEvent } from "wagmi";
-import { JACKPOT_ADDRESS } from "../utils/contract-addresses";
-import { tokenBalanceAbi } from "../utils/contracts/token-balance-abi";
+import { DEGEN_ADDRESS, JACKPOT_ADDRESS } from "../utils/contract-addresses";
+import { balanceOfAbi } from "../utils/contracts/balance-of-abi";
 import { tokensReceivedAbi } from "../utils/contracts/tokens-received-abi";
 
 export const JackpotTotal = () => {
@@ -10,9 +10,10 @@ export const JackpotTotal = () => {
     isLoading,
     refetch,
   } = useReadContract({
-    address: JACKPOT_ADDRESS,
-    abi: tokenBalanceAbi,
-    functionName: "tokenBalance",
+    address: DEGEN_ADDRESS,
+    abi: balanceOfAbi,
+    functionName: "balanceOf",
+    args: [JACKPOT_ADDRESS],
   });
 
   useWatchContractEvent({
@@ -28,13 +29,17 @@ export const JackpotTotal = () => {
     <>
       <h4>Jackpot Total 👇</h4>
       {isLoading ? (
-        <h2><small>Loading Jackpot</small></h2>
+        <h2>
+          <small>Loading Jackpot</small>
+        </h2>
       ) : (
         <h2>
           {formatEther(jackpotTotal ?? BigInt("0"))} <small>$DEGEN</small>
         </h2>
       )}
-      <p><small>Jackpot grows until there is a winner</small></p>
+      <p>
+        <small>Updated 1 min ago</small>
+      </p>
     </>
   );
 };

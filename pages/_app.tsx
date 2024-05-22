@@ -29,7 +29,7 @@ const config = createConfig({
   connectors,
   transports: {
     [base.id]: webSocket("wss://base-mainnet.infura.io/ws/v3/0254d5783c62461bbff1044fed31828b"),
-    [sepolia.id]: webSocket("https://sepolia.infura.io/v3/0254d5783c62461bbff1044fed31828b"),
+    [sepolia.id]: webSocket("https://sepolia.infura.io/ws/v3/0254d5783c62461bbff1044fed31828b"),
   },
 });
 
