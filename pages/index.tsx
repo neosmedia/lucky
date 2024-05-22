@@ -9,6 +9,7 @@ import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
 import potPie from "../images/pot-pie.png";
 import styles from "../styles/Home.module.css";
+import { JACKPOT_ADDRESS } from "../utils/contract-addresses";
 
 const Home: NextPage = () => {
   return (
@@ -82,10 +83,11 @@ const Home: NextPage = () => {
             <h3>Rules 📐</h3>
 
             <p>
-              The structure of the game is written in a {" "}
-              <a href="https://basescan.org/address/0xe956dd84bfeb92b9eaf1324a7df10e064c171ab8" rel="noopener noreferrer" target="_blank">
-              smart contract
-              </a>{" "} for all to see
+              The structure of the game is written in a{" "}
+              <a href={`https://basescan.org/address/${JACKPOT_ADDRESS}`} rel="noopener noreferrer" target="_blank">
+                smart contract
+              </a>{" "}
+              for all to see
             </p>
 
             <ul>
