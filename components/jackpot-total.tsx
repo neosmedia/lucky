@@ -38,7 +38,7 @@ export const JackpotTotal = () => {
         </h2>
       )}
       <p>
-        <small>Updated 1 min ago</small>
+        <small>Winner gets 75% of growing Jackpot</small>
       </p>
     </>
   );

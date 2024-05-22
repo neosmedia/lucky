@@ -104,7 +104,7 @@ export const PurchaseOptions = () => {
     return (
       <>
         <h4>Sorry, not a winner 😬</h4>
-        <p>Odds are 1/100 better luck next time</p>
+        <p>Odds are 1/100 - better luck next time</p>
         <p
           className={styles.btn}
           onClick={() => {
@@ -122,8 +122,8 @@ export const PurchaseOptions = () => {
   if (winner) {
     return (
       <>
-        <h4>Your ticket is a winner 🎉</h4>
-        <h2>Congratulations, you won! Jackpot has been sent automatically</h2>
+        <h4>Congrats your ticket is a winner 🎉</h4>
+        <p>Check your wallet for 75% of Jackpot</p>
         <p
           className={styles.btn}
           onClick={() => {
