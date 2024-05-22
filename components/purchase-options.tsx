@@ -104,7 +104,7 @@ export const PurchaseOptions = () => {
     return (
       <>
         <h4>Sorry, not a winner 😬</h4>
-        <p>Odds are 100/1 better luck next time</p>
+        <p>Odds are 1/100 better luck next time</p>
         <p
           className={styles.btn}
           onClick={() => {
