@@ -51,42 +51,42 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th>RANK</th>
+              <th className={styles.centre}>RANK</th>
               <th>PLAYER</th>
-              <th>WINS</th>
-              <th className={styles.righty}>AMOUNT</th>
+              <th className={styles.centre}>WINS</th>
+              <th className={styles.right}>AMOUNT</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
+              <td className={styles.centre}>1</td>
               <td>TBA</td>
-              <td>1</td>
-              <td className={styles.righty}>420</td>
+              <td className={styles.centre}>1</td>
+              <td className={styles.right}>420</td>
             </tr>
             <tr>
-              <td>2</td>
+              <td className={styles.centre}>2</td>
               <td>0x94t3z</td>
-              <td>1</td>
-              <td className={styles.righty}>181</td>
+              <td className={styles.centre}>1</td>
+              <td className={styles.right}>181</td>
             </tr>
             <tr>
-              <td>3</td>
+              <td className={styles.centre}>3</td>
               <td>liveineth.eth</td>
-              <td>0</td>
-              <td className={styles.righty}>60</td>
+              <td className={styles.centre}>0</td>
+              <td className={styles.right}>60</td>
             </tr>
             <tr>
-              <td>4</td>
+              <td className={styles.centre}>4</td>
               <td>test1234567890</td>
-              <td>0</td>
-              <td className={styles.righty}>1</td>
+              <td className={styles.centre}>0</td>
+              <td className={styles.right}>1</td>
             </tr>
             <tr>
-              <td>5</td>
+              <td className={styles.centre}>5</td>
               <td>neos88</td>
-              <td>0</td>
-              <td className={styles.righty}>0</td>
+              <td className={styles.centre}>0</td>
+              <td className={styles.right}>0</td>
             </tr>
           </tbody>
         </table>
