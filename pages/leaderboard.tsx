@@ -72,19 +72,19 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td>3</td>
-              <td>liveth.eth</td>
+              <td>liveineth.eth</td>
               <td>0</td>
               <td className={styles.righty}>60</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>test1</td>
+              <td>test1234567890</td>
               <td>0</td>
               <td className={styles.righty}>1</td>
             </tr>
             <tr>
               <td>5</td>
-              <td>neos</td>
+              <td>neos88</td>
               <td>0</td>
               <td className={styles.righty}>0</td>
             </tr>
@@ -94,7 +94,7 @@ export default function Leaderboard() {
 
         <h2>Do you feel lucky?</h2>
 
-        <p className={styles.description}>Winners get 75% of the Jackpot sent to wallet automatically 🪄</p>
+        <p className={styles.description}>Winners get 75% of the Jackpot sent automatically 🪄 to your wallet</p>
 
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
