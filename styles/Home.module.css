@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.main h2 {
+  margin: 64px 0 24px 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
 .footer {
   display: flex;
   flex: 1;
