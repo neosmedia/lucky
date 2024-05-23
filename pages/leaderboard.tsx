@@ -44,13 +44,26 @@ export default function Leaderboard() {
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
-        <hr size="1" />
-
         <div className={styles.grid}>
           <div className={styles.card}>
             <h3>Leaderboard</h3>
 
             <p>Coming Soon</p>
+
+            <table>
+              <th>
+                <td>Rank</td>
+                <td>Lucky Player</td>
+                <td>Wins</td>
+                <td>Amount</td>
+              </th>
+              <tr>
+                <td>1</td>
+                <td>TBA</td>
+                <td>TBA</td>
+                <td>$degen</td>
+              </tr>
+            </table>
 
           </div>
         </div>
