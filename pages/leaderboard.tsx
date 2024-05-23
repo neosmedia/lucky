@@ -58,24 +58,24 @@ export default function Leaderboard() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
+              <th>1</th>
               <td>Username</td>
               <td>1</td>
             </tr>
             <tr>
-              <th scope="row">2</th>
+              <th>2</th>
               <td>Username</td>
               <td>2</td>
             </tr>
             <tr>
-              <th scope="row">2</th>
+              <th>2</th>
               <td>TBA</td>
               <td>0</td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <th scope="row" colspan="2">Average win</th>
+              <th colspan='2'>Average win</th>
               <td>330 $degen</td>
             </tr>
           </tfoot>
