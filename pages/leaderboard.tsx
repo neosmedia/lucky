@@ -7,7 +7,7 @@ import favIcon from "../images/favicon.png";
 import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
 import potPie from "../images/pot-pie.png";
-import styles from "../styles/Leaderboard.css";
+import styles from "../styles/Leaderboard.module.css";
 
 
 export default function Leaderboard() {
