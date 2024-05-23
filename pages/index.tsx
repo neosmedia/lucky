@@ -1,6 +1,7 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from 'next/link'
 import Image from "next/image";
 import { JackpotTotal } from "../components/jackpot-total";
 import { PurchaseOptions } from "../components/purchase-options";
