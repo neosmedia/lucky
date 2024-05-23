@@ -73,12 +73,6 @@ export default function Leaderboard() {
               <td>0</td>
             </tr>
           </tbody>
-          <tfoot>
-            <tr>
-              <th colspan='2'>Average win</th>
-              <td>330 $degen</td>
-            </tr>
-          </tfoot>
         </table>
 
         <h2>Ready to Play Lucky 75/25 Jackpot</h2>
