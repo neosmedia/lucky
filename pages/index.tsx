@@ -84,7 +84,7 @@ const Home: NextPage = () => {
             <h3>Rules 📐</h3>
 
             <p>
-              The structure of the game is written in a
+              The structure of the game is written in a&nbsp;
               <Link href={`https://basescan.org/address/${JACKPOT_ADDRESS}`} rel="noopener noreferrer" target="_blank">
                 smart contract
               </Link>

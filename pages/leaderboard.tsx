@@ -44,33 +44,38 @@ export default function Leaderboard() {
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
-        <h3>The Jackpot has been won 2 times</h3>
+        <h2>The Jackpot has been won 2 times 🏆</h2>
+
         <table className={styles.leaderboards}>
           <caption>
-            Coming Soon TBA
+            Updates every 24 hrs
           </caption>
           <thead>
             <tr>
-              <th scope="col">Rank</th>
-              <th scope="col">Lucky Player</th>
-              <th scope="col">Wins</th>
+              <th>Rank #</th>
+              <th>Lucky Player</th>
+              <th>Wins</th>
+              <th>Amount</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th>1</th>
               <td>Username</td>
-              <td>1</td>
+              <th>1</th>
+              <td>1020 $degen</td>
             </tr>
             <tr>
               <th>2</th>
               <td>Username</td>
-              <td>2</td>
+              <th>1</th>
+              <td>181 $degen</td>
             </tr>
             <tr>
-              <th>2</th>
-              <td>TBA</td>
-              <td>0</td>
+              <th>3</th>
+              <td>Username</td>
+              <th>0</th>
+              <td>0 $degen</td>
             </tr>
           </tbody>
         </table>
@@ -82,6 +87,8 @@ export default function Leaderboard() {
             Play Now
           </Link>
         </p>
+
+        <p>Frame version is being developed now and is coming soon to a farcaster channels soon</p>
 
         <br />
         <p>
