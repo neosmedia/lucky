@@ -110,20 +110,16 @@ const Home: NextPage = () => {
         <h2>Previous Jackpot winners</h2>
 
         <p className={styles.btn}>
-          {" "}
-          <a href="/leaderboard" rel="noopener noreferrer">
+          <Link href="/leaderboard" rel="noopener noreferrer">
             Lucky 🏆 Leaderboard
-          </a>
-          {" "}
+          </Link>
         </p>
 
         <br />
         <p>
-        {" "}
-          <a href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
+          <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
             View Basescan Transactions
-          </a>
-          {" "} 
+          </Link>
         </p>
         <br />
         <br />
