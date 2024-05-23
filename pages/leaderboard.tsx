@@ -40,10 +40,10 @@ export default function Leaderboard() {
       </nav>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Lucky Leaderboard</h1>
+        <h1 className={styles.title}>Lucky 🏆 Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
-        <h2 className={styles.subtitle}>Jackpot🏆 has been won 2 times</h2>
+        <h2 className={styles.subtitle}>Jackpot has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
