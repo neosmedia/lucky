@@ -52,28 +52,34 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th>Rank #</th>
-              <th>Lucky Player</th>
-              <th>Wins</th>
-              <th className={styles.righty}>Amount $degen</th>
+              <th>RANK #</th>
+              <th>LUCKY PLAYER</th>
+              <th>WINS</th>
+              <th className={styles.righty}>AMOUNT ($DEGEN)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td>Username</td>
+              <td>TBA</td>
               <th>1</th>
               <td className={styles.righty}>1020</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>Username</td>
+              <td>0x94t3z</td>
               <th>1</th>
               <td className={styles.righty}>181</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>Username</td>
+              <td>neos88</td>
+              <th>0</th>
+              <td className={styles.righty}>180</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>username</td>
               <th>0</th>
               <td className={styles.righty}>0</td>
             </tr>
