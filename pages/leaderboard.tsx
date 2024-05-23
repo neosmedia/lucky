@@ -48,14 +48,14 @@ export default function Leaderboard() {
 
         <table className={styles.leaderboards}>
           <caption>
-            Updates every 24 hrs - Amounts are in $degen
+            Leaderboard updates every 24 hrs
           </caption>
           <thead>
             <tr>
               <th>RANK #</th>
               <th>PLAYER</th>
               <th>WINS</th>
-              <th className={styles.righty}>AMOUNT</th>
+              <th className={styles.righty}>AMOUNT*</th>
             </tr>
           </thead>
           <tbody>
@@ -85,6 +85,7 @@ export default function Leaderboard() {
             </tr>
           </tbody>
         </table>
+        <p>Amounts are in $degen</p>
 
         <h2>Ready to Play Lucky 75/25 Jackpot?</h2>
 
@@ -92,7 +93,7 @@ export default function Leaderboard() {
 
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
-            Play Now
+            ☘️ Play Now
           </Link>
         </p>
 
