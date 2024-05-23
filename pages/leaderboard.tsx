@@ -44,7 +44,7 @@ export default function Leaderboard() {
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
-        <h2>The Jackpot has been won 2 times 🏆</h2>
+        <h2>The Lucky Jackpot 🏆 has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
@@ -55,7 +55,7 @@ export default function Leaderboard() {
               <th>Rank #</th>
               <th>Lucky Player</th>
               <th>Wins</th>
-              <th>Amount</th>
+              <th>Amount $degen</th>
             </tr>
           </thead>
           <tbody>
@@ -63,24 +63,26 @@ export default function Leaderboard() {
               <th>1</th>
               <td>Username</td>
               <th>1</th>
-              <td>1020 $degen</td>
+              <td>1020</td>
             </tr>
             <tr>
               <th>2</th>
               <td>Username</td>
               <th>1</th>
-              <td>181 $degen</td>
+              <td>181</td>
             </tr>
             <tr>
               <th>3</th>
               <td>Username</td>
               <th>0</th>
-              <td>0 $degen</td>
+              <td>0</td>
             </tr>
           </tbody>
         </table>
 
         <h2>Ready to Play Lucky 75/25 Jackpot</h2>
+
+        <h5>Winners get 75% of the Jackpot automatically</h5>
 
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
