@@ -40,53 +40,53 @@ export default function Leaderboard() {
       </nav>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Leaderboard</h1>
+        <h1 className={styles.title}>Lucky Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
-        <h2 className={styles.subtitle}>Lucky Jackpot 🏆 has been won 2 times</h2>
+        <h2 className={styles.subtitle}>Jackpot 🏆 has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
-            Updates every 24 hrs
+            Updates every 24 hrs - Amounts are in $degen
           </caption>
           <thead>
             <tr>
               <th>RANK #</th>
-              <th>LUCKY PLAYER</th>
+              <th>PLAYER</th>
               <th>WINS</th>
-              <th className={styles.righty}>AMOUNT ($DEGEN)</th>
+              <th className={styles.righty}>AMOUNT</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
               <td>TBA</td>
-              <th>1</th>
+              <td>2</td>
               <td className={styles.righty}>1020</td>
             </tr>
             <tr>
               <td>2</td>
               <td>0x94t3z</td>
-              <th>1</th>
+              <td>1</td>
               <td className={styles.righty}>181</td>
             </tr>
             <tr>
               <td>3</td>
               <td>neos88</td>
-              <th>0</th>
+              <td>1</td>
               <td className={styles.righty}>180</td>
             </tr>
             <tr>
               <td>4</td>
               <td>username</td>
-              <th>0</th>
+              <td>0</td>
               <td className={styles.righty}>0</td>
             </tr>
           </tbody>
         </table>
 
-        <h3>Ready to Play Lucky 75/25 Jackpot</h3>
+        <h2>Ready to Play Lucky 75/25 Jackpot?</h2>
 
         <p className={styles.description}>Winners get 75% of the Jackpot sent to wallet automatically 🪄</p>
 
@@ -96,7 +96,7 @@ export default function Leaderboard() {
           </Link>
         </p>
 
-        <p>Frame version is being developed now and is coming to farcaster channels soon</p>
+        <p>Frame version is being built now and is coming to channels soon</p>
 
         <br />
         <p>

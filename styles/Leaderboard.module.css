@@ -126,6 +126,11 @@ table.leaderboards {
   text-align: left;
 }
 
+table.leaderboards th {
+  background-color: #111;
+  color: #EEE;
+}
+
 th.righty,
 td.righty {
   text-align: right;
