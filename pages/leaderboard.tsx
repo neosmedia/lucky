@@ -44,58 +44,44 @@ export default function Leaderboard() {
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
 
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <h3>Leaderboard</h3>
+        <h3>The Jackpot has been won 2 times</h3>
+        <table className={styles.leaderboards}>
+          <caption>
+            Coming Soon TBA
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Rank</th>
+              <th scope="col">Lucky Player</th>
+              <th scope="col">Wins</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Username</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Username</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>TBA</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="2">Average win</th>
+              <td>330 $degen</td>
+            </tr>
+          </tfoot>
+        </table>
 
-            <p>Coming Soon TBA</p>
-
-            <table className={styles.leaderboards}>
-              <caption>
-                Front-end web developer course 2021
-              </caption>
-              <thead>
-                <tr>
-                  <th scope="col">Rank</th>
-                  <th scope="col">Lucky Player</th>
-                  <th scope="col">Wins</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Chris</th>
-                  <td>HTML tables</td>
-                  <td>22</td>
-                </tr>
-                <tr>
-                  <th scope="row">Dennis</th>
-                  <td>Web accessibility</td>
-                  <td>45</td>
-                </tr>
-                <tr>
-                  <th scope="row">Sarah</th>
-                  <td>JavaScript frameworks</td>
-                  <td>29</td>
-                </tr>
-                <tr>
-                  <th scope="row">Karen</th>
-                  <td>Web performance</td>
-                  <td>36</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th scope="row" colspan="2">Average age</th>
-                  <td>33</td>
-                </tr>
-              </tfoot>
-            </table>
-
-
-          </div>
-        </div>
-
-        <h2>Lucky 75/25 Jackpot</h2>
+        <h2>Ready to Play Lucky 75/25 Jackpot</h2>
 
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
