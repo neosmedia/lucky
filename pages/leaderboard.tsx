@@ -7,7 +7,7 @@ import favIcon from "../images/favicon.png";
 import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
 import potPie from "../images/pot-pie.png";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Leaderboard.css";
 
 
 export default function Leaderboard() {
@@ -48,22 +48,49 @@ export default function Leaderboard() {
           <div className={styles.card}>
             <h3>Leaderboard</h3>
 
-            <p>Coming Soon</p>
+            <p>Coming Soon TBA</p>
 
-            <table>
-              <th>
-                <td>Rank</td>
-                <td>Lucky Player</td>
-                <td>Wins</td>
-                <td>Amount</td>
-              </th>
-              <tr>
-                <td>1</td>
-                <td>TBA</td>
-                <td>TBA</td>
-                <td>$degen</td>
-              </tr>
+            <table className={styles.leaderboards}>
+              <caption>
+                Front-end web developer course 2021
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Lucky Player</th>
+                  <th scope="col">Wins</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Chris</th>
+                  <td>HTML tables</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dennis</th>
+                  <td>Web accessibility</td>
+                  <td>45</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sarah</th>
+                  <td>JavaScript frameworks</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <th scope="row">Karen</th>
+                  <td>Web performance</td>
+                  <td>36</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th scope="row" colspan="2">Average age</th>
+                  <td>33</td>
+                </tr>
+              </tfoot>
             </table>
+
 
           </div>
         </div>
@@ -90,14 +117,14 @@ export default function Leaderboard() {
         <Image src={favIcon} width="20" height="20" alt="Lucky 75/25 Jackpot" />
         &nbsp;
         <p>
-          Lucky Jackpot by{" "}
-          <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
+          Lucky Jackpot by
+          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
-          </a>{" "}
-          |{" "}
-          <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
+          </Link>
+          |
+          <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
-          </a>{" "}
+          </Link>
           &copy;2024
         </p>
       </footer>
