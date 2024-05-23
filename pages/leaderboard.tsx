@@ -106,9 +106,11 @@ export default function Leaderboard() {
         <JackpotTotal />
 
         <p>
-          <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
-            View Basescan transactions
-          </Link>
+          <small>
+            <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
+              View Basescan transactions
+            </Link>
+          </small>
         </p>
 
         <p className={styles.description}>Jackpot grows until a random win 🎲 is rolled</p>
