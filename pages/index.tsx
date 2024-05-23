@@ -84,17 +84,17 @@ const Home: NextPage = () => {
             <h3>Rules 📐</h3>
 
             <p>
-              The structure of the game is written in a{" "}
-              <a href={`https://basescan.org/address/${JACKPOT_ADDRESS}`} rel="noopener noreferrer" target="_blank">
+              The structure of the game is written in a
+              <Link href={`https://basescan.org/address/${JACKPOT_ADDRESS}`} rel="noopener noreferrer" target="_blank">
                 smart contract
-              </a>{" "}
+              </Link>
               for all to see
             </p>
 
             <ul>
               <li>Each ticket has a chance to win the Lucky Jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token using UI or send directly to contract</li>
-              <li>Winners are randomly selected</li>
+              <li><Link href="/leaderboard" rel="noopener noreferrer">Winners</Link> are randomly selected</li>
               <li>Odds of winning are 100/1</li>
               <li>Winner is sent Jackpot automatically</li>
               <li>Max 200 tickets per person</li>
@@ -132,14 +132,14 @@ const Home: NextPage = () => {
         <Image src={favIcon} width="20" height="20" alt="Lucky 75/25 Jackpot" />
         &nbsp;
         <p>
-          Lucky Jackpot by{" "}
-          <a href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
+          Lucky Jackpot by
+          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
-          </a>{" "}
-          |{" "}
-          <a href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
+          </Link>
+          |
+          <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
-          </a>{" "}
+          </Link>
           &copy;2024
         </p>
       </footer>
