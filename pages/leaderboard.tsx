@@ -112,7 +112,7 @@ export default function Leaderboard() {
 
         <br />
 
-        <p>Jackpot grows until a random winner is selected</p>
+        <p className={styles.description}>Jackpot grows until a 🎲 random winner is selected</p>
 
         <p>Frame version is currently being built now, and is coming to channels soon</p>
 
@@ -123,7 +123,7 @@ export default function Leaderboard() {
         <Image src={favIcon} width="20" height="20" alt="Lucky 75/25 Jackpot" />
         &nbsp;
         <p>
-          Lucky Jackpot by
+          Lucky Jackpot by&nbsp;
           <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
           </Link>
@@ -131,7 +131,7 @@ export default function Leaderboard() {
           <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
           </Link>
-          &copy;2024
+          &nbsp;&copy;2024
         </p>
       </footer>
     </div>

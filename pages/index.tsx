@@ -132,7 +132,7 @@ const Home: NextPage = () => {
         <Image src={favIcon} width="20" height="20" alt="Lucky 75/25 Jackpot" />
         &nbsp;
         <p>
-          Lucky Jackpot by
+          Lucky Jackpot by&nbsp;
           <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
           </Link>
@@ -140,7 +140,7 @@ const Home: NextPage = () => {
           <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
           </Link>
-          &copy;2024
+          &nbsp;&copy;2024
         </p>
       </footer>
     </div>
