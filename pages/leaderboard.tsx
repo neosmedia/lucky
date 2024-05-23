@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from 'next/link'
 import Image from "next/image";
+import { JackpotTotal } from "../components/jackpot-total";
 import favIcon from "../images/favicon.png";
 import luckyHero from "../images/lucky-hero.png";
 import luckyLogo from "../images/lucky-logo.svg";
@@ -51,39 +52,39 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th className={styles.centre}>RANK</th>
+              <th>RANK</th>
               <th>PLAYER</th>
               <th className={styles.centre}>WINS</th>
-              <th className={styles.right}>$ AMOUNT</th>
+              <th className={styles.centre}>$ AMOUNT</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className={styles.centre}>1</td>
+              <td>&nbsp;1</td>
               <td>TBA</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>420</td>
             </tr>
             <tr>
-              <td className={styles.centre}>2</td>
+              <td>&nbsp;2</td>
               <td>0x94t3z</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>181</td>
             </tr>
             <tr>
-              <td className={styles.centre}>3</td>
+              <td>&nbsp;3</td>
               <td>liveineth.eth</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>60</td>
             </tr>
             <tr>
-              <td className={styles.centre}>4</td>
+              <td>&nbsp;4</td>
               <td>testy12345678901</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>1</td>
             </tr>
             <tr>
-              <td className={styles.centre}>5</td>
+              <td>&nbsp;5</td>
               <td>test0x0000000000</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
@@ -94,15 +95,15 @@ export default function Leaderboard() {
 
         <h2>Do you feel lucky?</h2>
 
-        <p className={styles.description}>Winners get 75% of the Jackpot sent automatically 🪄 to your wallet</p>
-
-        <Image src={potPie} className={styles.responsive} alt="Pot Pie Chart" />
-
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
             ☘️ Play Now
           </Link>
         </p>
+
+        <Image src={potPie} className={styles.responsive} alt="Pot Pie Chart" />
+
+        <JackpotTotal />
 
         <p>
           <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
@@ -110,13 +111,9 @@ export default function Leaderboard() {
           </Link>
         </p>
 
-        <br />
-
         <p className={styles.description}>Jackpot grows until a random win 🎲 is rolled</p>
 
-        <p>Frame version is currently being built now, and is coming to channels soon</p>
-
-
+        
       </main>
 
       <footer className={styles.footer}>
