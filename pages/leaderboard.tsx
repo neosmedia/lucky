@@ -41,7 +41,7 @@ export default function Leaderboard() {
       </nav>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Lucky 🏆 Leaderboard</h1>
+        <h1 className={styles.title}>🏆 Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Tickets" />
         <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
@@ -101,6 +101,8 @@ export default function Leaderboard() {
           </Link>
         </p>
 
+        <br />
+
         <Image src={potPie} className={styles.responsive} alt="Pot Pie Chart" />
 
         <JackpotTotal />
@@ -112,6 +114,8 @@ export default function Leaderboard() {
             </Link>
           </small>
         </p>
+
+        <br />
 
         <p className={styles.description}>Jackpot grows until a random win 🎲 is rolled</p>
 
