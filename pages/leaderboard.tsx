@@ -30,7 +30,7 @@ export default function Leaderboard() {
       </Head>
 
       <nav>
-        <Link href="/"><Image src={luckyLogo} width="80" height="36" alt="Lucky Jackpot Logo" /></Link>
+        <Link href="/"><Image src={luckyLogo} width="80" height="36" alt="lucky Jackpot Logo" /></Link>
 
         <ul>
           <li>
@@ -42,8 +42,8 @@ export default function Leaderboard() {
       <main className={styles.main}>
         <h1 className={styles.title}>Lucky 🏆 Leaderboard</h1>
 
-        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
-        <h2 className={styles.subtitle}>Jackpot has been won 2 times</h2>
+        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Tickets" />
+        <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
@@ -96,6 +96,8 @@ export default function Leaderboard() {
 
         <p className={styles.description}>Winners get 75% of the Jackpot sent automatically 🪄 to your wallet</p>
 
+        <Image src={potPie} className={styles.responsive} alt="Pot Pie Chart" />
+
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
             ☘️ Play Now
@@ -107,6 +109,7 @@ export default function Leaderboard() {
             View Basescan transactions
           </Link>
         </p>
+
         <br />
 
         <p>Jackpot grows until a random winner is selected</p>
@@ -124,7 +127,7 @@ export default function Leaderboard() {
           <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
           </Link>
-          |
+          &nbsp;|&nbsp;
           <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
           </Link>

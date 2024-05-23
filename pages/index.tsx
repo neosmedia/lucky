@@ -136,7 +136,7 @@ const Home: NextPage = () => {
           <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
             Neos
           </Link>
-          |
+          &nbsp;|&nbsp;
           <Link href="https://warpcast.com/web3designer" rel="noopener noreferrer" target="_blank">
             Web3Designer
           </Link>
