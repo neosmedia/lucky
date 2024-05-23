@@ -43,8 +43,7 @@ export default function Leaderboard() {
         <h1 className={styles.title}>Lucky Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
-
-        <h2 className={styles.subtitle}>Jackpot 🏆 has been won 2 times</h2>
+        <h2 className={styles.subtitle}>Jackpot🏆 has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
