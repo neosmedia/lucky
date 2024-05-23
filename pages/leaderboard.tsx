@@ -78,7 +78,7 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>4</td>
-              <td>test1234567890</td>
+              <td>testy1234567890x</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>1</td>
             </tr>
@@ -102,16 +102,17 @@ export default function Leaderboard() {
           </Link>
         </p>
 
-        <p>Jackpot grows until a random winner is selected</p>
-
-        <p>Frame version is currently being built now, and is coming to channels soon</p>
-
         <p>
           <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
             View Basescan transactions
           </Link>
         </p>
         <br />
+
+        <p>Jackpot grows until a random winner is selected</p>
+
+        <p>Frame version is currently being built now, and is coming to channels soon</p>
+
 
       </main>
 

@@ -108,7 +108,7 @@ const Home: NextPage = () => {
 
         <br />
 
-        <h2>Previous Jackpot winners</h2>
+        <h2>Previous Winners</h2>
 
         <p className={styles.btn}>
           <Link href="/leaderboard" rel="noopener noreferrer">
