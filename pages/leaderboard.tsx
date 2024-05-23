@@ -54,7 +54,7 @@ export default function Leaderboard() {
               <th className={styles.centre}>RANK</th>
               <th>PLAYER</th>
               <th className={styles.centre}>WINS</th>
-              <th className={styles.right}>AMOUNT</th>
+              <th className={styles.right}>$ AMOUNT</th>
             </tr>
           </thead>
           <tbody>
@@ -78,13 +78,13 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>4</td>
-              <td>testy1234567890x</td>
+              <td>testy12345678901</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>1</td>
             </tr>
             <tr>
               <td className={styles.centre}>5</td>
-              <td>neos88</td>
+              <td>test0x0000000000</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
             </tr>

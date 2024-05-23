@@ -115,10 +115,10 @@
 }
 
 table.leaderboards {
-	width: 100%;
+  width: 100%;
   margin: 0 0 24px 0;
   padding: 2px;
-	min-width: 320px;
+  min-width: 320px;
   max-width: 720px;
   border-style: solid;
   border-width: 1px;
@@ -143,6 +143,10 @@ table.leaderboards th {
   font-size: 0.8rem;
 }
 
+table.leaderboards tbody tr {
+  height: 32px;
+}
+
 th.centre,
 td.centre {
   text-align: center;
@@ -151,4 +155,5 @@ td.centre {
 th.right,
 td.right {
   text-align: right;
+  padding-right: 4px;
 }
