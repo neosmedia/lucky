@@ -15,7 +15,7 @@ export default function Leaderboard() {
 
     <div className={styles.container}>
       <Head>
-        <title>Lucky Jackpot</title>
+        <title>Leaderboard | Lucky Jackpot</title>
         <meta content="Win Degen tokens in the Lucky 75/25 Jackpot" name="description" />
 
         <link href="https://luckyjackpot.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.b34c1433.png&w=48&q=75" rel="shortcut icon" type="image/x-icon" />
@@ -55,34 +55,34 @@ export default function Leaderboard() {
               <th>Rank #</th>
               <th>Lucky Player</th>
               <th>Wins</th>
-              <th>Amount $degen</th>
+              <th className={styles.righty}>Amount $degen</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>1</th>
+              <td>1</td>
               <td>Username</td>
               <th>1</th>
-              <td>1020</td>
+              <td className={styles.righty}>1020</td>
             </tr>
             <tr>
-              <th>2</th>
+              <td>2</td>
               <td>Username</td>
               <th>1</th>
-              <td>181</td>
+              <td className={styles.righty}>181</td>
             </tr>
             <tr>
-              <th>3</th>
+              <td>3</td>
               <td>Username</td>
               <th>0</th>
-              <td>0</td>
+              <td className={styles.righty}>0</td>
             </tr>
           </tbody>
         </table>
 
         <h2>Ready to Play Lucky 75/25 Jackpot</h2>
 
-        <h5>Winners get 75% of the Jackpot automatically</h5>
+        <p className={styles.description}>Winners get 75% of the Jackpot sent to wallet automatically 🪄</p>
 
         <p className={styles.btn}>
           <Link href="/" rel="noopener noreferrer">
@@ -90,7 +90,7 @@ export default function Leaderboard() {
           </Link>
         </p>
 
-        <p>Frame version is being developed now and is coming soon to a farcaster channels soon</p>
+        <p>Frame version is being developed now and is coming to farcaster channels soon</p>
 
         <br />
         <p>

@@ -166,7 +166,17 @@
 
 table.leaderboards {
 	width: 88%;
+  margin: 8px 0 64px 0;
   padding: 24px 8px;
 	min-width: 320px;
   max-width: 720px;
+}
+
+table.leaderboards {
+  text-align: left;
+}
+
+th.righty,
+td.righty {
+  text-align: right;
 }
