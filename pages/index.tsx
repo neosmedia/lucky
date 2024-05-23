@@ -111,7 +111,7 @@ const Home: NextPage = () => {
 
         <p className={styles.btn}>
           {" "}
-          <a href="https://luckyjackpot.xyz/leaderboard" rel="noopener noreferrer">
+          <a href="/leaderboard" rel="noopener noreferrer">
             Lucky 🏆 Leaderboard
           </a>
           {" "}
