@@ -88,7 +88,7 @@ const Home: NextPage = () => {
               <Link href={`https://basescan.org/address/${JACKPOT_ADDRESS}`} rel="noopener noreferrer" target="_blank">
                 smart contract
               </Link>
-              for all to see
+              &nbsp;for all to see
             </p>
 
             <ul>
