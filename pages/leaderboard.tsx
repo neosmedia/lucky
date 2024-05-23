@@ -54,15 +54,15 @@ export default function Leaderboard() {
               <th>RANK #</th>
               <th>PLAYER</th>
               <th>WINS</th>
-              <th className={styles.righty}>AMOUNT*</th>
+              <th className={styles.righty}>AMOUNT</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
               <td>TBA</td>
-              <td>2</td>
-              <td className={styles.righty}>1020</td>
+              <td>1</td>
+              <td className={styles.righty}>420</td>
             </tr>
             <tr>
               <td>2</td>
@@ -72,13 +72,19 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td>3</td>
-              <td>neos88</td>
-              <td>1</td>
-              <td className={styles.righty}>180</td>
+              <td>liveth.eth</td>
+              <td>0</td>
+              <td className={styles.righty}>60</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>username</td>
+              <td>test</td>
+              <td>0</td>
+              <td className={styles.righty}>1</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>neos88</td>
               <td>0</td>
               <td className={styles.righty}>0</td>
             </tr>
@@ -86,7 +92,7 @@ export default function Leaderboard() {
         </table>
         <p>Amounts are in $degen</p>
 
-        <h2>Ready to Play Lucky 75/25 Jackpot?</h2>
+        <h2>Do you feel lucky?</h2>
 
         <p className={styles.description}>Winners get 75% of the Jackpot sent to wallet automatically 🪄</p>
 
