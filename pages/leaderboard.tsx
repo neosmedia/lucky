@@ -112,7 +112,7 @@ export default function Leaderboard() {
 
         <br />
 
-        <p className={styles.description}>Jackpot grows until a 🎲 random winner is selected</p>
+        <p className={styles.description}>Jackpot grows until a random win 🎲 is rolled</p>
 
         <p>Frame version is currently being built now, and is coming to channels soon</p>
 
