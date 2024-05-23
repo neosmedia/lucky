@@ -51,7 +51,7 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th>RANK #</th>
+              <th>RANK</th>
               <th>PLAYER</th>
               <th>WINS</th>
               <th className={styles.righty}>AMOUNT</th>
@@ -78,13 +78,13 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td>4</td>
-              <td>test</td>
+              <td>test1</td>
               <td>0</td>
               <td className={styles.righty}>1</td>
             </tr>
             <tr>
               <td>5</td>
-              <td>neos88</td>
+              <td>neos</td>
               <td>0</td>
               <td className={styles.righty}>0</td>
             </tr>
@@ -102,12 +102,13 @@ export default function Leaderboard() {
           </Link>
         </p>
 
-        <p>Frame version is being built now and is coming to channels soon</p>
+        <p>Jackpot grows until a random winner is selected</p>
 
-        <br />
+        <p>Frame version is currently being built now, and is coming to channels soon</p>
+
         <p>
           <Link href="https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed?a=0xD243C72e4a1E1430fa7406aF43Dad03d99a61F79" rel="noopener noreferrer" target="_blank">
-            View Basescan Transactions
+            View Basescan transactions
           </Link>
         </p>
         <br />
