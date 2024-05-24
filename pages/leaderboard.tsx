@@ -44,7 +44,7 @@ export default function Leaderboard() {
         <h1 className={styles.title}>🏆 Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Tickets" />
-        <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
+        <h2 className={styles.subtitle}>jackpot has been won 3 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
@@ -74,14 +74,14 @@ export default function Leaderboard() {
             <tr>
               <td className={styles.centre}>3</td>
               <td>liveineth.eth</td>
-              <td className={styles.centre}>0</td>
+              <td className={styles.centre}>1</td>
               <td className={styles.right}>60</td>
             </tr>
             <tr>
               <td className={styles.centre}>4</td>
               <td>testy12345678901</td>
               <td className={styles.centre}>0</td>
-              <td className={styles.right}>1</td>
+              <td className={styles.right}>0</td>
             </tr>
             <tr>
               <td className={styles.centre}>5</td>
