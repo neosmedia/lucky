@@ -55,7 +55,7 @@ export default function Leaderboard() {
               <th className={styles.centre}>&nbsp;RANK&nbsp;</th>
               <th>PLAYER</th>
               <th className={styles.centre}>WINS</th>
-              <th className={styles.right}>&nbsp;AMOUNT&nbsp;</th>
+              <th className={styles.right}>&nbsp;AMOUNT*&nbsp;</th>
             </tr>
           </thead>
           <tbody>
@@ -121,7 +121,7 @@ export default function Leaderboard() {
             </tr>
           </tbody>
         </table>
-        <p>Amounts are in $degen from <Link href="https://degen.tips" rel="noopener noreferrer" target="_blank">
+        <p>*Amounts are in $DEGEN from <Link href="https://degen.tips" rel="noopener noreferrer" target="_blank">
             degen.tips</Link></p>
 
         <h2>Do you feel lucky?</h2>
