@@ -43,7 +43,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Lucky 75/25 Jackpot</h1>
 
-        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Hero" />
+        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Raffle" />
 
         <div className={styles.box}>
           <div className={styles.one}>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
               <li>Each ticket has a chance to win the Lucky Jackpot</li>
               <li>Purchase ticket(s) with $DEGEN token using UI or send directly to contract</li>
               <li><Link href="/leaderboard" rel="noopener noreferrer">Winners</Link> are randomly selected</li>
-              <li>Odds of winning are 100/1</li>
+              <li>Odds of winning are 1/100</li>
               <li>Winner is sent Jackpot automatically</li>
               <li>Max 200 tickets per person</li>
               <li>Base Network</li>
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
 
         <br />
 
-        <h2>Previous Winners</h2>
+        <h2>Recent Winners</h2>
 
         <p className={styles.btn}>
           <Link href="/leaderboard" rel="noopener noreferrer">
