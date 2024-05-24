@@ -115,7 +115,7 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>10</td>
-              <td>web3</td>
+              <td>web3designer</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
