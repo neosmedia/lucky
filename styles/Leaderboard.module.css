@@ -123,7 +123,7 @@ table.leaderboards {
   border-style: solid;
   border-width: 1px;
   border-radius: 6px;
-  background-color: #fed999;
+  background-color: #fff;
   box-shadow: 0 4px 0 0 #333;
 }
 
@@ -141,6 +141,11 @@ table.leaderboards th {
   border-radius: 2px;
   padding: 2px 0 2px 4px;
   font-size: 0.8rem;
+}
+
+table.leaderboards tbody tr.leader {
+  height: 32px;
+  background-color: #fed999;
 }
 
 table.leaderboards tbody tr {

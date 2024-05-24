@@ -52,42 +52,48 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th>RANK</th>
+              <th className={styles.centre}>RANK</th>
               <th>PLAYER</th>
               <th className={styles.centre}>WINS</th>
-              <th className={styles.centre}>$ AMOUNT</th>
+              <th className={styles.right}>$ AMOUNT&nbsp;</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>&nbsp;1</td>
-              <td>TBA</td>
+            <tr className={styles.leader}>
+              <td className={styles.centre}>1</td>
+              <td>TBA ☘️</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>420</td>
             </tr>
             <tr>
-              <td>&nbsp;2</td>
+              <td className={styles.centre}>2</td>
               <td>0x94t3z</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>181</td>
             </tr>
             <tr>
-              <td>&nbsp;3</td>
+              <td className={styles.centre}>3</td>
               <td>liveineth.eth</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>60</td>
             </tr>
             <tr>
-              <td>&nbsp;4</td>
+              <td className={styles.centre}>4</td>
               <td>testy12345678901</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>1</td>
             </tr>
             <tr>
-              <td>&nbsp;5</td>
+              <td className={styles.centre}>5</td>
               <td>test0x0000000000</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
+            </tr>
+            <tr>
+              <td className={styles.centre}>6</td>
+              <td>tester</td>
+              <td className={styles.centre}>0</td>
+              <td className={styles.right}>--</td>
             </tr>
           </tbody>
         </table>
