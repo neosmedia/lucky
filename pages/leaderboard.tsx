@@ -92,7 +92,31 @@ export default function Leaderboard() {
             <tr>
               <td className={styles.centre}>6</td>
               <td>tester</td>
-              <td className={styles.centre}>0</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>--</td>
+            </tr>
+            <tr>
+              <td className={styles.centre}>7</td>
+              <td>dev</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>--</td>
+            </tr>
+            <tr>
+              <td className={styles.centre}>8</td>
+              <td>qa</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>--</td>
+            </tr>
+            <tr>
+              <td className={styles.centre}>9</td>
+              <td>neos88</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>--</td>
+            </tr>
+            <tr>
+              <td className={styles.centre}>10</td>
+              <td>web3</td>
+              <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
           </tbody>
