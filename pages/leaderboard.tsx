@@ -52,7 +52,7 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th className={styles.centre}>&nbsp;RANK&nbsp;</th>
+              <th className={styles.centre}>&nbsp;#&nbsp;</th>
               <th>PLAYER</th>
               <th className={styles.centre}>&nbsp;WINS&nbsp;</th>
               <th className={styles.right}>&nbsp;AMOUNT&nbsp;</th>
