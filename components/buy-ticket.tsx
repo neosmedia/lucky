@@ -83,10 +83,10 @@ export const BuyTicket = () => {
           }
         );
 
-        toast.success("Tickets purchased", { id: transactionToastId });
+        toast.success("Tickets purchased for raffle", { id: transactionToastId });
       } catch (ex: any) {
-        if (ex.message.includes("User rejected the request")) {
-          toast.error("User rejected the request", { id: transactionToastId });
+        if (ex.message.includes("Player cancelled ticket")) {
+          toast.error("Player cancelled ticket", { id: transactionToastId });
         } else {
           toast.error("An error occurred", { id: transactionToastId });
         }
@@ -103,7 +103,7 @@ export const BuyTicket = () => {
           await enterDraw("20");
         }}
       >
-        Get 1 ticket 20$
+        Buy 1 ticket 20$
       </p>
       <p
         className={styles.btn}
@@ -111,7 +111,7 @@ export const BuyTicket = () => {
           await enterDraw("100");
         }}
       >
-        Get 5 tickets 100$
+        Buy 5 tickets 100$
       </p>
     </>
   );
