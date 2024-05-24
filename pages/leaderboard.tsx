@@ -73,7 +73,7 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>3</td>
-              <td>liveineth.eth</td>
+              <td>vihavibes.eth</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>60</td>
             </tr>
