@@ -143,6 +143,10 @@ table.leaderboards th {
   font-size: 0.78rem;
 }
 
+table.leaderboards thead tr {
+  height: 24px;
+}
+
 table.leaderboards tbody tr.leader {
   height: 32px;
   background-color: #fed999;
