@@ -52,7 +52,7 @@ export default function Leaderboard() {
           </caption>
           <thead>
             <tr>
-              <th className={styles.centre}>&nbsp;#&nbsp;</th>
+              <th className={styles.centre}>#</th>
               <th>PLAYER</th>
               <th className={styles.centre}>&nbsp;WINS&nbsp;</th>
               <th className={styles.right}>&nbsp;AMOUNT&nbsp;</th>
@@ -60,55 +60,55 @@ export default function Leaderboard() {
           </thead>
           <tbody>
             <tr className={styles.leader}>
-              <td className={styles.centre}>1</td>
+              <td className={styles.centre}>&nbsp;1</td>
               <td>TBA ☘️</td>
               <td className={styles.centre}>--</td>
-              <td className={styles.right}>480</td>
+              <td className={styles.right}>495</td>
             </tr>
             <tr>
-              <td className={styles.centre}>2</td>
+              <td className={styles.centre}>&nbsp;2</td>
               <td>0x94t3z</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>181</td>
             </tr>
             <tr>
-              <td className={styles.centre}>3</td>
+              <td className={styles.centre}>&nbsp;3</td>
               <td>vihavibes.eth</td>
               <td className={styles.centre}>1</td>
               <td className={styles.right}>60</td>
             </tr>
             <tr>
-              <td className={styles.centre}>4</td>
+              <td className={styles.centre}>&nbsp;4</td>
               <td>test_ty1</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
             </tr>
             <tr>
-              <td className={styles.centre}>5</td>
+              <td className={styles.centre}>&nbsp;5</td>
               <td>dev-0x000000000</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
             </tr>
             <tr>
-              <td className={styles.centre}>6</td>
+              <td className={styles.centre}>&nbsp;6</td>
               <td>dev-1</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
             <tr>
-              <td className={styles.centre}>7</td>
+              <td className={styles.centre}>&nbsp;7</td>
               <td>henry</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
             <tr>
-              <td className={styles.centre}>8</td>
+              <td className={styles.centre}>&nbsp;8</td>
               <td>neos88</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
             <tr>
-              <td className={styles.centre}>9</td>
+              <td className={styles.centre}>&nbsp;9</td>
               <td>qa-1</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
