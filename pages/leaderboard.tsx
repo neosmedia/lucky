@@ -43,19 +43,19 @@ export default function Leaderboard() {
       <main className={styles.main}>
         <h1 className={styles.title}>🏆 Leaderboard</h1>
 
-        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Tickets" />
+        <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Raffle" />
         <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
-            Leaderboard updates every 24 hrs
+            Leaderboard updates every 12 hrs
           </caption>
           <thead>
             <tr>
               <th className={styles.centre}>&nbsp;RANK&nbsp;</th>
               <th>PLAYER</th>
-              <th className={styles.centre}>WINS</th>
-              <th className={styles.right}>&nbsp;AMOUNT*&nbsp;</th>
+              <th className={styles.centre}>&nbsp;WINS&nbsp;</th>
+              <th className={styles.right}>&nbsp;AMOUNT&nbsp;</th>
             </tr>
           </thead>
           <tbody>
@@ -63,7 +63,7 @@ export default function Leaderboard() {
               <td className={styles.centre}>1</td>
               <td>TBA ☘️</td>
               <td className={styles.centre}>--</td>
-              <td className={styles.right}>375</td>
+              <td className={styles.right}>480</td>
             </tr>
             <tr>
               <td className={styles.centre}>2</td>
@@ -79,13 +79,13 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>4</td>
-              <td>testy12345678901</td>
+              <td>test_ty1</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
             </tr>
             <tr>
               <td className={styles.centre}>5</td>
-              <td>test0x0000000000</td>
+              <td>dev-0x000000000</td>
               <td className={styles.centre}>0</td>
               <td className={styles.right}>0</td>
             </tr>
