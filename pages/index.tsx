@@ -133,7 +133,7 @@ const Home: NextPage = () => {
         &nbsp;
         <p>
           Lucky Jackpot by&nbsp;
-          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
+          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer">
             Neos
           </Link>
           &nbsp;|&nbsp;

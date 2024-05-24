@@ -44,7 +44,7 @@ export default function Leaderboard() {
         <h1 className={styles.title}>🏆 Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Tickets" />
-        <h2 className={styles.subtitle}>jackpot has been won 3 times</h2>
+        <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
@@ -62,8 +62,8 @@ export default function Leaderboard() {
             <tr className={styles.leader}>
               <td className={styles.centre}>1</td>
               <td>TBA ☘️</td>
-              <td className={styles.centre}>1</td>
-              <td className={styles.right}>360</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>375</td>
             </tr>
             <tr>
               <td className={styles.centre}>2</td>
@@ -91,7 +91,7 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>6</td>
-              <td>dev</td>
+              <td>dev-1</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
@@ -109,7 +109,7 @@ export default function Leaderboard() {
             </tr>
             <tr>
               <td className={styles.centre}>9</td>
-              <td>qa</td>
+              <td>qa-1</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>--</td>
             </tr>
@@ -121,7 +121,8 @@ export default function Leaderboard() {
             </tr>
           </tbody>
         </table>
-        <p>Amounts are in $degen</p>
+        <p>Amounts are in $degen from <Link href="https://degen.tips" rel="noopener noreferrer" target="_blank">
+            degen.tips</Link></p>
 
         <h2>Do you feel lucky?</h2>
 
@@ -157,7 +158,7 @@ export default function Leaderboard() {
         &nbsp;
         <p>
           Lucky Jackpot by&nbsp;
-          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer" target="_blank">
+          <Link href="https://warpcast.com/neos88" rel="noopener noreferrer">
             Neos
           </Link>
           &nbsp;|&nbsp;
