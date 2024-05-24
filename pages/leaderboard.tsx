@@ -55,7 +55,7 @@ export default function Leaderboard() {
               <th className={styles.centre}>&nbsp;RANK&nbsp;</th>
               <th>PLAYER</th>
               <th className={styles.centre}>WINS</th>
-              <th className={styles.right}>$&nbsp;AMOUNT&nbsp;</th>
+              <th className={styles.right}>&nbsp;AMOUNT&nbsp;</th>
             </tr>
           </thead>
           <tbody>
