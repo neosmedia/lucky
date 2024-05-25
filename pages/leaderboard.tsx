@@ -44,7 +44,7 @@ export default function Leaderboard() {
         <h1 className={styles.title}>Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Raffle" />
-        <h2 className={styles.subtitle}>jackpot has been won 3 x</h2>
+        <h2 className={styles.subtitle}>jackpot has been won 3 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
