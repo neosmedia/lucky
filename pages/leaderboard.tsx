@@ -41,10 +41,10 @@ export default function Leaderboard() {
       </nav>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>☘️ Leaderboard 🏆</h1>
+        <h1 className={styles.title}>Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Raffle" />
-        <h2 className={styles.subtitle}>jackpot has been won 2 times</h2>
+        <h2 className={styles.subtitle}>jackpot 🏆 has been won 3 times</h2>
 
         <table className={styles.leaderboards}>
           <caption>
@@ -61,7 +61,7 @@ export default function Leaderboard() {
           <tbody>
             <tr className={styles.leader}>
               <td className={styles.centre}>&nbsp;1</td>
-              <td>TBA</td>
+              <td>TBA ☘️</td>
               <td className={styles.centre}>--</td>
               <td className={styles.right}>495</td>
             </tr>
@@ -80,14 +80,14 @@ export default function Leaderboard() {
             <tr>
               <td className={styles.centre}>&nbsp;4</td>
               <td>test_ty1</td>
-              <td className={styles.centre}>0</td>
-              <td className={styles.right}>0</td>
+              <td className={styles.centre}>1</td>
+              <td className={styles.right}>1</td>
             </tr>
             <tr>
               <td className={styles.centre}>&nbsp;5</td>
               <td>dev-0x000000000</td>
-              <td className={styles.centre}>0</td>
-              <td className={styles.right}>0</td>
+              <td className={styles.centre}>--</td>
+              <td className={styles.right}>--</td>
             </tr>
             <tr>
               <td className={styles.centre}>&nbsp;6</td>
