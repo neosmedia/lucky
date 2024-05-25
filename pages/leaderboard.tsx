@@ -44,11 +44,11 @@ export default function Leaderboard() {
         <h1 className={styles.title}>Leaderboard</h1>
 
         <Image src={luckyHero} className={styles.responsive} alt="Lucky Jackpot Raffle" />
-        <h2 className={styles.subtitle}>jackpot 🏆 has been won 3 times</h2>
+        <h2 className={styles.subtitle}>jackpot has been won 3 x</h2>
 
         <table className={styles.leaderboards}>
           <caption>
-            Leaderboard updates every 12 hrs
+            🏆 Leaderboard updates every 12 hrs
           </caption>
           <thead>
             <tr>
@@ -63,7 +63,7 @@ export default function Leaderboard() {
               <td className={styles.centre}>&nbsp;1</td>
               <td>TBA ☘️</td>
               <td className={styles.centre}>--</td>
-              <td className={styles.right}>495</td>
+              <td className={styles.right}>510</td>
             </tr>
             <tr>
               <td className={styles.centre}>&nbsp;2</td>
