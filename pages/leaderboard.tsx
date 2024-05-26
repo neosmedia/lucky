@@ -63,7 +63,7 @@ export default function Leaderboard() {
               <td className={styles.centre}>&nbsp;1</td>
               <td>TBA ☘️</td>
               <td className={styles.centre}>--</td>
-              <td className={styles.right}>555</td>
+              <td className={styles.right}>570</td>
             </tr>
             <tr>
               <td className={styles.centre}>&nbsp;2</td>
